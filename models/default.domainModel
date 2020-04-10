@@ -53,9 +53,9 @@
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_Pd_M5HQ0EeqD9fsUNfqtzw" name="p_email"/>
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_Pd_M5XQ0EeqD9fsUNfqtzw" name="p_pass" type="Password"/>
       </operations>
-      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_On5nQHm3EeqHLZNsBtk0qA" name="cambiarPassword" type="Void">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_On94sHm3EeqHLZNsBtk0qA" name="p_oid" type="OID" typeObject="_YvyVcFMkEeqrJ7PR8Bus8w"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_X61LMHm3EeqHLZNsBtk0qA" name="p_pass" type="Password"/>
+      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_On5nQHm3EeqHLZNsBtk0qA" name="cambiarPassword" operationType="Modifier" type="Void" automaticSynchronize="false" customized="true">
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_R9LtQHsFEeqwXsKBnToj4A" name="p_UsuarioAdministrador_OID" type="OID" typeObject="_YvyVcFMkEeqrJ7PR8Bus8w"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_R9OwkHsFEeqwXsKBnToj4A" name="p_pass" type="Password"/>
       </operations>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_qJPc4Vi8EeqjDJwRLdLcRg" alias="idNotaInformativa" lower="0" upper="*" associationTarget="_qJO10Fi8EeqjDJwRLdLcRg" name="notas" type="Object"/>
     </elements>
