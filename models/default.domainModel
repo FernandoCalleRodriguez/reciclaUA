@@ -21,14 +21,14 @@
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_Pd-l0XQ0EeqD9fsUNfqtzw" name="p_UsuarioWeb_OID" type="OID" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_0cxPUlMjEeqrJ7PR8Bus8w" name="buscarTodos" operationType="ReadAll" type="Object" collectionType="List" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w"/>
-      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_dyJCwFMpEeqrJ7PR8Bus8w" name="obtenerRanking" operationType="ReadFilter" type="Object" collectionType="List" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w" filter="FROM UsuarioWebEN as usu order by usu.Puntuacion" automaticSynchronize="false"/>
+      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_dyJCwFMpEeqrJ7PR8Bus8w" name="obtenerRanking" operationType="ReadFilter" type="Object" collectionType="List" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w" filter="FROM UsuarioWebEN as usu WHERE usu.Borrado = false order by usu.Puntuacion desc" automaticSynchronize="false"/>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_2uU2YFvjEeqRhZevucC8UA" name="obtenerPuntuaciones" operationType="ReadFilter" type="Object" collectionType="List" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w" filter="FROM UsuarioWebEN as usu order by usu.Puntuacion desc" automaticSynchronize="false"/>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_hWAsMHm3EeqHLZNsBtk0qA" name="cambiarPassword" type="Void">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_hWGLwHm3EeqHLZNsBtk0qA" name="p_oid" type="OID" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w"/>
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_liGSIHm3EeqHLZNsBtk0qA" name="p_pass" type="Password"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_xp8NsHm3EeqHLZNsBtk0qA" name="verificarEmail" type="Void">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_xp9b0Hm3EeqHLZNsBtk0qA" name="p_oid" type="OID" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_vIVVAHtWEeqC9YigsS7iUQ" name="p_UsuarioWeb_OID" type="OID" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w"/>
       </operations>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_tDhQMVMrEeqrJ7PR8Bus8w" alias="idAccion" aggregation="Composite" lower="0" upper="*" associationOrigin="_tDhQMFMrEeqrJ7PR8Bus8w" name="acciones" type="Object"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_24gY4Fh8EeqjDJwRLdLcRg" alias="puntuacion" name="puntuacion" type="Integer"/>
