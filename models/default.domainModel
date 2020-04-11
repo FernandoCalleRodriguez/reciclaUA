@@ -30,6 +30,9 @@
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_xp8NsHm3EeqHLZNsBtk0qA" name="verificarEmail" type="Void">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_vIVVAHtWEeqC9YigsS7iUQ" name="p_UsuarioWeb_OID" type="OID" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w"/>
       </operations>
+      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="__ArHoHwPEeqxX9rvCzKD8A" name="buscarPorCorreo" operationType="ReadFilter" type="Object" collectionType="List" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w" filter="FROM UsuarioWebEN as usu WHERE usu.Email =:p_correo" automaticSynchronize="false">
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_Sgv1AHwQEeqxX9rvCzKD8A" name="p_email"/>
+      </operations>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_tDhQMVMrEeqrJ7PR8Bus8w" alias="idAccion" aggregation="Composite" lower="0" upper="*" associationOrigin="_tDhQMFMrEeqrJ7PR8Bus8w" name="acciones" type="Object"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_24gY4Fh8EeqjDJwRLdLcRg" alias="puntuacion" name="puntuacion" type="Integer"/>
     </elements>
@@ -697,6 +700,13 @@
           <styles xmi:type="notation:FontStyle" xmi:id="_xp_RAXm3EeqHLZNsBtk0qA" fontName="Segoe UI"/>
           <styles xmi:type="notation:FillStyle" xmi:id="_xp_RAnm3EeqHLZNsBtk0qA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xp_RA3m3EeqHLZNsBtk0qA"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="__BUn4HwPEeqxX9rvCzKD8A" type="3004" element="__ArHoHwPEeqxX9rvCzKD8A">
+          <children xmi:type="notation:DecorationNode" xmi:id="__BVO8HwPEeqxX9rvCzKD8A" type="5004"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="__BUn4XwPEeqxX9rvCzKD8A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="__BUn4nwPEeqxX9rvCzKD8A" fontName="Segoe UI"/>
+          <styles xmi:type="notation:FillStyle" xmi:id="__BUn43wPEeqxX9rvCzKD8A"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="__BUn5HwPEeqxX9rvCzKD8A"/>
         </children>
         <styles xmi:type="notation:SortingStyle" xmi:id="_t1SlBFMjEeqrJ7PR8Bus8w"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_t1SlBVMjEeqrJ7PR8Bus8w"/>
