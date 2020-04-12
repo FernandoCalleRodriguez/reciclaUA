@@ -163,7 +163,7 @@
       </navAttribute>
       <referToClass xmi:type="es.ua.dlsi.ooh:Class" href="default.domainModel#_x7CM8Fi2EeqjDJwRLdLcRg"/>
     </navigationalElem>
-    <navigationalElem xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalClass" xmi:id="_dBoeYG2tEeqE3buVxWXJCQ" name="Duda" originEnd="_LBdrQG2yEeqE3buVxWXJCQ _wsyrQG56EeqN-8HQaYT6xg _uzd8sG57EeqN-8HQaYT6xg _oY6voHKjEeqxxbPce-qqKg" targetEnd="_wsyrQG56EeqN-8HQaYT6xg _uzd8sG57EeqN-8HQaYT6xg">
+    <navigationalElem xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalClass" xmi:id="_dBoeYG2tEeqE3buVxWXJCQ" name="Duda" originEnd="_LBdrQG2yEeqE3buVxWXJCQ _wsyrQG56EeqN-8HQaYT6xg _uzd8sG57EeqN-8HQaYT6xg _oY6voHKjEeqxxbPce-qqKg" targetEnd="_wsyrQG56EeqN-8HQaYT6xg _uzd8sG57EeqN-8HQaYT6xg _1sibAHzZEeqQVd3YTF5krg">
       <navOperation xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalOperation" xmi:id="_mAxjoG2tEeqE3buVxWXJCQ" name="crear">
         <referToOperation xmi:type="es.ua.dlsi.ooh:Operation" href="default.domainModel#_-7zkkVMkEeqrJ7PR8Bus8w"/>
       </navOperation>
@@ -217,7 +217,7 @@
       </navAttribute>
       <referToClass xmi:type="es.ua.dlsi.ooh:Class" href="default.domainModel#_8s6rIFMkEeqrJ7PR8Bus8w"/>
     </navigationalElem>
-    <navigationalElem xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalClass" xmi:id="_ffu4gG2tEeqE3buVxWXJCQ" name="Respuesta" originEnd="_sVqSAHKjEeqxxbPce-qqKg" targetEnd="_LBdrQG2yEeqE3buVxWXJCQ">
+    <navigationalElem xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalClass" xmi:id="_ffu4gG2tEeqE3buVxWXJCQ" name="Respuesta" originEnd="_sVqSAHKjEeqxxbPce-qqKg _1sibAHzZEeqQVd3YTF5krg" targetEnd="_LBdrQG2yEeqE3buVxWXJCQ">
       <navOperation xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalOperation" xmi:id="_z8mlUG2tEeqE3buVxWXJCQ" name="crear">
         <referToOperation xmi:type="es.ua.dlsi.ooh:Operation" href="default.domainModel#_dwnVkVMlEeqrJ7PR8Bus8w"/>
       </navOperation>
@@ -469,6 +469,9 @@
     </navigationalElem>
     <navigationalElem xmi:type="es.ua.dlsi.ooh.navigationalView:TravesalLink" xmi:id="_sVqSAHKjEeqxxbPce-qqKg" name="UsuarioRespuesta" activationMode="Automatic" nodeOrigin="_ffu4gG2tEeqE3buVxWXJCQ" nodeTarget="_pcA78Gn-EeqVwuacpccIkA">
       <associationRol xmi:type="es.ua.dlsi.ooh:Attribute" href="default.domainModel#_IjlS8lMsEeqrJ7PR8Bus8w"/>
+    </navigationalElem>
+    <navigationalElem xmi:type="es.ua.dlsi.ooh.navigationalView:TravesalLink" xmi:id="_1sibAHzZEeqQVd3YTF5krg" name="DudaRespuesta" nodeOrigin="_ffu4gG2tEeqE3buVxWXJCQ" nodeTarget="_dBoeYG2tEeqE3buVxWXJCQ">
+      <associationRol xmi:type="es.ua.dlsi.ooh:Attribute" href="default.domainModel#_89h10lMrEeqrJ7PR8Bus8w"/>
     </navigationalElem>
     <conceptualModel xmi:type="es.ua.dlsi.ooh:ConceptualModel" href="default.domainModel#_s93NwFMjEeqrJ7PR8Bus8w"/>
   </es.ua.dlsi.ooh.navigationalView:NavigationalModel>
@@ -1589,6 +1592,15 @@
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sVy04XKjEeqxxbPce-qqKg" points="[-1, -9, 27, 387]$[-23, -382, 5, 14]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sVzb8HKjEeqxxbPce-qqKg" id="(0.1179245283018868,0.02875399361022364)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sVzb8XKjEeqxxbPce-qqKg" id="(0.6956521739130435,0.9289340101522843)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_1s8qsHzZEeqQVd3YTF5krg" type="4004" element="_1sibAHzZEeqQVd3YTF5krg" source="_ffwGoG2tEeqE3buVxWXJCQ" target="_dBpsgG2tEeqE3buVxWXJCQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_1s8qs3zZEeqQVd3YTF5krg" type="6004">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_1s8qtHzZEeqQVd3YTF5krg" y="-15"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_1s8qsXzZEeqQVd3YTF5krg" fontName="Segoe UI"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1s8qsnzZEeqQVd3YTF5krg" points="[-44, 0, 143, 0]$[-172, 8, 15, 8]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1s-f4HzZEeqQVd3YTF5krg" id="(0.17254901960784313,0.4201954397394137)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1s-f4XzZEeqQVd3YTF5krg" id="(0.9382716049382716,0.662125340599455)"/>
     </edges>
   </notation:Diagram>
 </xmi:XMI>
