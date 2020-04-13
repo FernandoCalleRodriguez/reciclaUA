@@ -257,11 +257,10 @@
       <enumerationLiterals xmi:type="es.ua.dlsi.ooh:EnumerationLiteral" xmi:id="_D04E8FMoEeqrJ7PR8Bus8w" name="organico" value="4"/>
     </elements>
     <elements xmi:type="es.ua.dlsi.ooh:Class" xmi:id="_JQRWoFMoEeqrJ7PR8Bus8w" name="Item" alias="Item" asociationTarget="_5hnTIFMsEeqrJ7PR8Bus8w _9gQ6AFMsEeqrJ7PR8Bus8w _MpaBMFgAEeqjDJwRLdLcRg _dmoYQFi5EeqjDJwRLdLcRg">
-      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_O--l4VMoEeqrJ7PR8Bus8w" name="crear" operationType="New" type="Object" typeObject="_JQRWoFMoEeqrJ7PR8Bus8w">
+      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_O--l4VMoEeqrJ7PR8Bus8w" name="crear" operationType="New" type="Object" typeObject="_JQRWoFMoEeqrJ7PR8Bus8w" automaticSynchronize="false" customized="true">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_1X1PaHKeEeqxxbPce-qqKg" name="p_nombre"/>
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_1X1PaXKeEeqxxbPce-qqKg" name="p_descripcion"/>
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_1X1PanKeEeqxxbPce-qqKg" name="p_imagen"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_1X1Pa3KeEeqxxbPce-qqKg" name="p_esValido" type="Enum" typeEnum="_Thx6EFi3EeqjDJwRLdLcRg"/>
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_1X1PbHKeEeqxxbPce-qqKg" name="p_usuario" type="OID" typeObject="_NI_N0Fh8EeqjDJwRLdLcRg"/>
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_1X1PbXKeEeqxxbPce-qqKg" name="p_material" type="OID" typeObject="_dfFPwFf-EeqjDJwRLdLcRg"/>
       </operations>
@@ -382,10 +381,9 @@
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_sbJUgFgAEeqjDJwRLdLcRg" name="buscarPorTipoContenedor" operationType="ReadFilter" type="Object" collectionType="List" typeObject="_dfFPwFf-EeqjDJwRLdLcRg" filter="FROM MaterialEN as material WHERE material.Contenedor =:p_tipoContenedor" automaticSynchronize="false">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_SubH8GIiEeqJPuejY5n0pA" name="p_tipoContenedor" type="Integer"/>
       </operations>
-      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_7HXJgVh9EeqjDJwRLdLcRg" name="crear" operationType="New" type="Object" typeObject="_dfFPwFf-EeqjDJwRLdLcRg">
+      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_7HXJgVh9EeqjDJwRLdLcRg" name="crear" operationType="New" type="Object" typeObject="_dfFPwFf-EeqjDJwRLdLcRg" automaticSynchronize="false" customized="true">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_g5L8wHKlEeqxxbPce-qqKg" name="p_nombre"/>
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_g5L8wXKlEeqxxbPce-qqKg" name="p_contenedor" type="Enum" typeEnum="_63pEMFMnEeqrJ7PR8Bus8w"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_g5L8wnKlEeqxxbPce-qqKg" name="p_esValido" type="Enum" typeEnum="_Thx6EFi3EeqjDJwRLdLcRg"/>
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_g5L8w3KlEeqxxbPce-qqKg" name="p_usuario" type="OID" typeObject="_NI_N0Fh8EeqjDJwRLdLcRg"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_7HXwklh9EeqjDJwRLdLcRg" name="modificar" operationType="Modifier" type="Void">
