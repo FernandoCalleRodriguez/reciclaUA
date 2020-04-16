@@ -33,6 +33,7 @@
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="__ArHoHwPEeqxX9rvCzKD8A" name="buscarPorCorreo" operationType="ReadFilter" type="Object" collectionType="List" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w" filter="FROM UsuarioWebEN as usu WHERE usu.Email =:p_email" automaticSynchronize="false">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_Sgv1AHwQEeqxX9rvCzKD8A" name="p_email"/>
       </operations>
+      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_qlg2EH-0EeqNb7_P2vWz4g" name="buscarNoBorrados" operationType="ReadFilter" type="Object" collectionType="List" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w" filter="FROM UsuarioWebEN as usu WHERE usu.Borrado = false" automaticSynchronize="false"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_tDhQMVMrEeqrJ7PR8Bus8w" alias="idAccion" aggregation="Composite" lower="0" upper="*" associationOrigin="_tDhQMFMrEeqrJ7PR8Bus8w" name="acciones" type="Object"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_24gY4Fh8EeqjDJwRLdLcRg" alias="puntuacion" name="puntuacion" type="Integer"/>
     </elements>
@@ -63,6 +64,7 @@
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_yQM6QHwZEeqxX9rvCzKD8A" name="buscarPorCorreo" operationType="ReadFilter" type="Object" collectionType="List" typeObject="_YvyVcFMkEeqrJ7PR8Bus8w" filter="FROM UsuarioAdministradorEN  as usu WHERE usu.Email =:p_correo" automaticSynchronize="false">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_FUSPMHwaEeqxX9rvCzKD8A" name="p_correo"/>
       </operations>
+      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_31cbEH-0EeqNb7_P2vWz4g" name="BuscarNoBorrados" operationType="ReadFilter" type="Object" collectionType="List" typeObject="_YvyVcFMkEeqrJ7PR8Bus8w" filter="FROM UsuarioAdministradorEN as usu WHERE usu.Borrado = false" automaticSynchronize="false"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_qJPc4Vi8EeqjDJwRLdLcRg" alias="idNotaInformativa" lower="0" upper="*" associationTarget="_qJO10Fi8EeqjDJwRLdLcRg" name="notas" type="Object"/>
     </elements>
     <elements xmi:type="es.ua.dlsi.ooh:Class" xmi:id="_8s6rIFMkEeqrJ7PR8Bus8w" name="Duda" alias="Duda" asociationTarget="_3BacsFMrEeqrJ7PR8Bus8w" associationOrigin="_89h10FMrEeqrJ7PR8Bus8w">
@@ -709,6 +711,13 @@
           <styles xmi:type="notation:FillStyle" xmi:id="__BUn43wPEeqxX9rvCzKD8A"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="__BUn5HwPEeqxX9rvCzKD8A"/>
         </children>
+        <children xmi:type="notation:Node" xmi:id="_qmGr8H-0EeqNb7_P2vWz4g" type="3004" element="_qlg2EH-0EeqNb7_P2vWz4g">
+          <children xmi:type="notation:DecorationNode" xmi:id="_qmGr9X-0EeqNb7_P2vWz4g" type="5004"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_qmGr8X-0EeqNb7_P2vWz4g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_qmGr8n-0EeqNb7_P2vWz4g" fontName="Segoe UI"/>
+          <styles xmi:type="notation:FillStyle" xmi:id="_qmGr83-0EeqNb7_P2vWz4g"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qmGr9H-0EeqNb7_P2vWz4g"/>
+        </children>
         <styles xmi:type="notation:SortingStyle" xmi:id="_t1SlBFMjEeqrJ7PR8Bus8w"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_t1SlBVMjEeqrJ7PR8Bus8w"/>
       </children>
@@ -772,6 +781,13 @@
           <styles xmi:type="notation:FontStyle" xmi:id="_yQWrQnwZEeqxX9rvCzKD8A" fontName="Segoe UI"/>
           <styles xmi:type="notation:FillStyle" xmi:id="_yQWrQ3wZEeqxX9rvCzKD8A"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yQWrRHwZEeqxX9rvCzKD8A"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_31cbEn-0EeqNb7_P2vWz4g" type="3004" element="_31cbEH-0EeqNb7_P2vWz4g">
+          <children xmi:type="notation:DecorationNode" xmi:id="_31cbF3-0EeqNb7_P2vWz4g" type="5004"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_31cbE3-0EeqNb7_P2vWz4g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_31cbFH-0EeqNb7_P2vWz4g" fontName="Segoe UI"/>
+          <styles xmi:type="notation:FillStyle" xmi:id="_31cbFX-0EeqNb7_P2vWz4g"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_31cbFn-0EeqNb7_P2vWz4g"/>
         </children>
         <styles xmi:type="notation:SortingStyle" xmi:id="_YvyVe1MkEeqrJ7PR8Bus8w"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_YvyVfFMkEeqrJ7PR8Bus8w"/>
