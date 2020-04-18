@@ -583,32 +583,32 @@
     <elements xmi:type="es.ua.dlsi.ooh:Inheritance" xmi:id="_9oApoFukEeqbB84-ujc1mA" name="inheritance" son="_YvyVcFMkEeqrJ7PR8Bus8w" father="_NI_N0Fh8EeqjDJwRLdLcRg"/>
     <elements xmi:type="es.ua.dlsi.ooh:Class" xmi:id="_wU1D8F1zEeqEVphT1Oaudg" name="Estancia" alias="Estancia" asociationTarget="_a7K3YF12EeqEVphT1Oaudg _uaxqsF12EeqEVphT1Oaudg" associationOrigin="_joa7YF12EeqEVphT1Oaudg">
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_6DwVcF11EeqEVphT1Oaudg" name="modificar" operationType="Modifier" type="Void">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_14gEMHcXEeqiCMLzrU4JpA" name="p_Estancia_OID" type="OID" typeObject="_wU1D8F1zEeqEVphT1Oaudg"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_14grQHcXEeqiCMLzrU4JpA" name="p_actividad"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_14grQXcXEeqiCMLzrU4JpA" name="p_latitud"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_14grQncXEeqiCMLzrU4JpA" name="p_longitud"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_14grQ3cXEeqiCMLzrU4JpA" name="p_nombre"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_kHYecIFIEeqWG_hg4WnF6A" name="p_Estancia_OID" type="OID" typeObject="_wU1D8F1zEeqEVphT1Oaudg"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_kHYecYFIEeqWG_hg4WnF6A" name="p_actividad"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_kHYecoFIEeqWG_hg4WnF6A" name="p_latitud" type="Double"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_kHYec4FIEeqWG_hg4WnF6A" name="p_longitud" type="Double"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_kHYedIFIEeqWG_hg4WnF6A" name="p_nombre"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_6DwVdl11EeqEVphT1Oaudg" name="borrar" operationType="Destroy" type="Void">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_14grRHcXEeqiCMLzrU4JpA" name="p_Estancia_OID" type="OID" typeObject="_wU1D8F1zEeqEVphT1Oaudg"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_kHYedYFIEeqWG_hg4WnF6A" name="p_Estancia_OID" type="OID" typeObject="_wU1D8F1zEeqEVphT1Oaudg"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_7dd6YF11EeqEVphT1Oaudg" name="buscarPorId" operationType="ReadOID" type="Object" typeObject="_wU1D8F1zEeqEVphT1Oaudg">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_14grRXcXEeqiCMLzrU4JpA" name="p_Estancia_OID" type="OID" typeObject="_wU1D8F1zEeqEVphT1Oaudg"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_kHYedoFIEeqWG_hg4WnF6A" name="p_Estancia_OID" type="OID" typeObject="_wU1D8F1zEeqEVphT1Oaudg"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_7dd6Yl11EeqEVphT1Oaudg" name="buscarTodos" operationType="ReadAll" type="Object" collectionType="List" typeObject="_wU1D8F1zEeqEVphT1Oaudg"/>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_52rxAHcXEeqiCMLzrU4JpA" name="crear" operationType="New" type="Object" typeObject="_wU1D8F1zEeqEVphT1Oaudg">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_52s_IHcXEeqiCMLzrU4JpA" name="p_id"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_52s_IXcXEeqiCMLzrU4JpA" name="p_actividad"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_52s_IncXEeqiCMLzrU4JpA" name="p_latitud"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_52s_I3cXEeqiCMLzrU4JpA" name="p_longitud"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_52s_JHcXEeqiCMLzrU4JpA" name="p_nombre"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_52tmMHcXEeqiCMLzrU4JpA" name="p_edificio" type="OID" typeObject="_h01lcFi2EeqjDJwRLdLcRg"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_52tmMXcXEeqiCMLzrU4JpA" name="p_planta" type="OID" typeObject="_x7CM8Fi2EeqjDJwRLdLcRg"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_kHYed4FIEeqWG_hg4WnF6A" name="p_id"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_kHiPcIFIEeqWG_hg4WnF6A" name="p_actividad"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_kHiPcYFIEeqWG_hg4WnF6A" name="p_latitud" type="Double"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_kHiPcoFIEeqWG_hg4WnF6A" name="p_longitud" type="Double"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_kHiPc4FIEeqWG_hg4WnF6A" name="p_nombre"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_kHiPdIFIEeqWG_hg4WnF6A" name="p_edificio" type="OID" typeObject="_h01lcFi2EeqjDJwRLdLcRg"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_kHiPdYFIEeqWG_hg4WnF6A" name="p_planta" type="OID" typeObject="_x7CM8Fi2EeqjDJwRLdLcRg"/>
       </operations>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_nl22wF11EeqEVphT1Oaudg" alias="id" name="id" isOID="true" unique="true" isToken="true"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_ut5QcF11EeqEVphT1Oaudg" alias="actividad" name="actividad"/>
-      <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_vgcHsF11EeqEVphT1Oaudg" alias="latitud" name="latitud"/>
-      <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_wqLW8F11EeqEVphT1Oaudg" alias="longitud" name="longitud"/>
+      <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_vgcHsF11EeqEVphT1Oaudg" alias="latitud" name="latitud" type="Double"/>
+      <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_wqLW8F11EeqEVphT1Oaudg" alias="longitud" name="longitud" type="Double"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_3BA9MF11EeqEVphT1Oaudg" alias="nombre" name="nombre"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_a7LecV12EeqEVphT1Oaudg" alias="idEdificio" associationTarget="_a7K3YF12EeqEVphT1Oaudg" name="edificio" type="Object"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_jobicF12EeqEVphT1Oaudg" alias="idPlanta" associationOrigin="_joa7YF12EeqEVphT1Oaudg" name="planta" type="Object"/>
