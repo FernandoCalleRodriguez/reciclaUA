@@ -310,7 +310,7 @@
       </navAttribute>
       <referToClass xmi:type="es.ua.dlsi.ooh:Class" href="default.domainModel#_Gv5IUFh9EeqjDJwRLdLcRg"/>
     </navigationalElem>
-    <navigationalElem xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalClass" xmi:id="_kKStsG2uEeqE3buVxWXJCQ" name="Item" originEnd="_ILREwG2zEeqE3buVxWXJCQ _KgLtsG2zEeqE3buVxWXJCQ" targetEnd="_sLFXgG2yEeqE3buVxWXJCQ _TgTwMIDUEeqWG_hg4WnF6A">
+    <navigationalElem xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalClass" xmi:id="_kKStsG2uEeqE3buVxWXJCQ" name="Item" originEnd="_ILREwG2zEeqE3buVxWXJCQ _KgLtsG2zEeqE3buVxWXJCQ" targetEnd="_sLFXgG2yEeqE3buVxWXJCQ">
       <navOperation xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalOperation" xmi:id="_0j1vAG2uEeqE3buVxWXJCQ" name="modificar">
         <referToOperation xmi:type="es.ua.dlsi.ooh:Operation" href="default.domainModel#_O--l4lMoEeqrJ7PR8Bus8w"/>
       </navOperation>
@@ -328,6 +328,9 @@
       </navOperation>
       <navOperation xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalOperation" xmi:id="_6BfZQH2uEeqQVd3YTF5krg" name="crear">
         <referToOperation xmi:type="es.ua.dlsi.ooh:Operation" href="default.domainModel#_O--l4VMoEeqrJ7PR8Bus8w"/>
+      </navOperation>
+      <navOperation xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalOperation" xmi:id="_YUJ3kIJyEeqtYP_st8J39w" name="buscarItemsPorNivel">
+        <referToOperation xmi:type="es.ua.dlsi.ooh:Operation" href="default.domainModel#_FUa3IIJyEeqtYP_st8J39w"/>
       </navOperation>
       <navAttribute xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalAttribute" xmi:id="_sI0qgG2uEeqE3buVxWXJCQ" name="nombre">
         <referToAttribute xmi:type="es.ua.dlsi.ooh:Attribute" href="default.domainModel#_Z8DXcFMoEeqrJ7PR8Bus8w"/>
@@ -388,7 +391,7 @@
       </navAttribute>
       <referToClass xmi:type="es.ua.dlsi.ooh:Class" href="default.domainModel#_dfFPwFf-EeqjDJwRLdLcRg"/>
     </navigationalElem>
-    <navigationalElem xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalClass" xmi:id="_nXS4YG2yEeqE3buVxWXJCQ" name="Nivel" originEnd="_TgTwMIDUEeqWG_hg4WnF6A" targetEnd="_KgLtsG2zEeqE3buVxWXJCQ">
+    <navigationalElem xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalClass" xmi:id="_nXS4YG2yEeqE3buVxWXJCQ" name="Nivel" targetEnd="_KgLtsG2zEeqE3buVxWXJCQ">
       <navOperation xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalOperation" xmi:id="_tmAsgG32EeqN-8HQaYT6xg" name="buscarPorId">
         <referToOperation xmi:type="es.ua.dlsi.ooh:Operation" href="default.domainModel#_B7uVgFMpEeqrJ7PR8Bus8w"/>
       </navOperation>
@@ -472,9 +475,6 @@
     </navigationalElem>
     <navigationalElem xmi:type="es.ua.dlsi.ooh.navigationalView:TravesalLink" xmi:id="_1sibAHzZEeqQVd3YTF5krg" name="DudaRespuesta" nodeOrigin="_ffu4gG2tEeqE3buVxWXJCQ" nodeTarget="_dBoeYG2tEeqE3buVxWXJCQ">
       <associationRol xmi:type="es.ua.dlsi.ooh:Attribute" href="default.domainModel#_89h10lMrEeqrJ7PR8Bus8w"/>
-    </navigationalElem>
-    <navigationalElem xmi:type="es.ua.dlsi.ooh.navigationalView:TravesalLink" xmi:id="_TgTwMIDUEeqWG_hg4WnF6A" name="ItemsNivel" nodeOrigin="_nXS4YG2yEeqE3buVxWXJCQ" nodeTarget="_kKStsG2uEeqE3buVxWXJCQ">
-      <associationRol xmi:type="es.ua.dlsi.ooh:Attribute" href="default.domainModel#_9gQ6AVMsEeqrJ7PR8Bus8w"/>
     </navigationalElem>
     <conceptualModel xmi:type="es.ua.dlsi.ooh:ConceptualModel" href="default.domainModel#_s93NwFMjEeqrJ7PR8Bus8w"/>
   </es.ua.dlsi.ooh.navigationalView:NavigationalModel>
@@ -1274,6 +1274,13 @@
           <styles xmi:type="notation:LineStyle" xmi:id="_6BgAU32uEeqQVd3YTF5krg"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6BgAVH2uEeqQVd3YTF5krg"/>
         </children>
+        <children xmi:type="notation:Node" xmi:id="_YUM64IJyEeqtYP_st8J39w" type="3004" element="_YUJ3kIJyEeqtYP_st8J39w">
+          <children xmi:type="notation:DecorationNode" xmi:id="_YUM65YJyEeqtYP_st8J39w" type="5008"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_YUM64YJyEeqtYP_st8J39w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_YUM64oJyEeqtYP_st8J39w" fontName="Segoe UI"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_YUM644JyEeqtYP_st8J39w"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YUM65IJyEeqtYP_st8J39w"/>
+        </children>
         <styles xmi:type="notation:SortingStyle" xmi:id="_kKUi5W2uEeqE3buVxWXJCQ"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_kKUi5m2uEeqE3buVxWXJCQ"/>
       </children>
@@ -1604,15 +1611,6 @@
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1s8qsnzZEeqQVd3YTF5krg" points="[-44, 0, 143, 0]$[-172, 8, 15, 8]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1s-f4HzZEeqQVd3YTF5krg" id="(0.17254901960784313,0.4201954397394137)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1s-f4XzZEeqQVd3YTF5krg" id="(0.9382716049382716,0.662125340599455)"/>
-    </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_Tj3agIDUEeqWG_hg4WnF6A" type="4004" element="_TgTwMIDUEeqWG_hg4WnF6A" source="_nXVUoG2yEeqE3buVxWXJCQ" target="_kKT70G2uEeqE3buVxWXJCQ">
-      <children xmi:type="notation:DecorationNode" xmi:id="_Tj4ooIDUEeqWG_hg4WnF6A" type="6004">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_Tj4ooYDUEeqWG_hg4WnF6A" y="-15"/>
-      </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_Tj3agYDUEeqWG_hg4WnF6A" fontName="Segoe UI"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Tj4BkIDUEeqWG_hg4WnF6A" points="[-5, 0, 117, 12]$[-116, 1, 6, 13]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Tj-IMIDUEeqWG_hg4WnF6A" id="(0.06481481481481481,0.32075471698113206)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Tj-IMYDUEeqWG_hg4WnF6A" id="(0.6951219512195121,0.91)"/>
     </edges>
   </notation:Diagram>
 </xmi:XMI>

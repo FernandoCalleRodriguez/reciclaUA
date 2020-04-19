@@ -429,6 +429,9 @@
       <navOperation xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalOperation" xmi:id="_xfWwAIJXEeqtYP_st8J39w" name="buscarItemsPorValidarCount">
         <referToOperation xmi:type="es.ua.dlsi.ooh:Operation" href="default.domainModel#_l4gBoIJXEeqtYP_st8J39w"/>
       </navOperation>
+      <navOperation xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalOperation" xmi:id="_ZOJaoIJyEeqtYP_st8J39w" name="buscarItemsPorNivel">
+        <referToOperation xmi:type="es.ua.dlsi.ooh:Operation" href="default.domainModel#_FUa3IIJyEeqtYP_st8J39w"/>
+      </navOperation>
       <navAttribute xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalAttribute" xmi:id="_sI0qgG2uEeqE3buVxWXJCQ" name="nombre">
         <referToAttribute xmi:type="es.ua.dlsi.ooh:Attribute" href="default.domainModel#_Z8DXcFMoEeqrJ7PR8Bus8w"/>
       </navAttribute>
@@ -521,6 +524,12 @@
       </navOperation>
       <navOperation xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalOperation" xmi:id="_Q-6gAHQnEeqD9fsUNfqtzw" name="borrar">
         <referToOperation xmi:type="es.ua.dlsi.ooh:Operation" href="default.domainModel#_BFobBFMpEeqrJ7PR8Bus8w"/>
+      </navOperation>
+      <navOperation xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalOperation" xmi:id="_kfHDcIJwEeqtYP_st8J39w" name="asignarItems">
+        <referToOperation xmi:type="es.ua.dlsi.ooh:Operation" href="default.domainModel#_dFlRIIJwEeqtYP_st8J39w"/>
+      </navOperation>
+      <navOperation xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalOperation" xmi:id="_nXnhoIJwEeqtYP_st8J39w" name="desasignarItems">
+        <referToOperation xmi:type="es.ua.dlsi.ooh:Operation" href="default.domainModel#_fkC3oIJwEeqtYP_st8J39w"/>
       </navOperation>
       <navAttribute xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalAttribute" xmi:id="_pk-bcG2zEeqE3buVxWXJCQ" name="numero">
         <referToAttribute xmi:type="es.ua.dlsi.ooh:Attribute" href="default.domainModel#_JMU1UFMpEeqrJ7PR8Bus8w"/>
@@ -1685,6 +1694,13 @@
           <styles xmi:type="notation:LineStyle" xmi:id="_xfeEw4JXEeqtYP_st8J39w"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xfeExIJXEeqtYP_st8J39w"/>
         </children>
+        <children xmi:type="notation:Node" xmi:id="_ZOMd8IJyEeqtYP_st8J39w" type="3004" element="_ZOJaoIJyEeqtYP_st8J39w">
+          <children xmi:type="notation:DecorationNode" xmi:id="_ZOMd9YJyEeqtYP_st8J39w" type="5008"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_ZOMd8YJyEeqtYP_st8J39w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ZOMd8oJyEeqtYP_st8J39w" fontName="Segoe UI"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_ZOMd84JyEeqtYP_st8J39w"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZOMd9IJyEeqtYP_st8J39w"/>
+        </children>
         <styles xmi:type="notation:SortingStyle" xmi:id="_kKUi5W2uEeqE3buVxWXJCQ"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_kKUi5m2uEeqE3buVxWXJCQ"/>
       </children>
@@ -1853,6 +1869,20 @@
           <styles xmi:type="notation:FontStyle" xmi:id="_Q-7HEnQnEeqD9fsUNfqtzw" fontName="Segoe UI"/>
           <styles xmi:type="notation:LineStyle" xmi:id="_Q-7HE3QnEeqD9fsUNfqtzw"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q-7HFHQnEeqD9fsUNfqtzw"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_kfKt0IJwEeqtYP_st8J39w" type="3004" element="_kfHDcIJwEeqtYP_st8J39w">
+          <children xmi:type="notation:DecorationNode" xmi:id="_kfKt1YJwEeqtYP_st8J39w" type="5008"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_kfKt0YJwEeqtYP_st8J39w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_kfKt0oJwEeqtYP_st8J39w" fontName="Segoe UI"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_kfKt04JwEeqtYP_st8J39w"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kfKt1IJwEeqtYP_st8J39w"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_nXoIsIJwEeqtYP_st8J39w" type="3004" element="_nXnhoIJwEeqtYP_st8J39w">
+          <children xmi:type="notation:DecorationNode" xmi:id="_nXoItYJwEeqtYP_st8J39w" type="5008"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_nXoIsYJwEeqtYP_st8J39w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_nXoIsoJwEeqtYP_st8J39w" fontName="Segoe UI"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_nXoIs4JwEeqtYP_st8J39w"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nXoItIJwEeqtYP_st8J39w"/>
         </children>
         <styles xmi:type="notation:SortingStyle" xmi:id="_nXVUqm2yEeqE3buVxWXJCQ"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_nXVUq22yEeqE3buVxWXJCQ"/>
