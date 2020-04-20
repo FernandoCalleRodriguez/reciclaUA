@@ -10,7 +10,7 @@
       </navOperation>
       <referToClass xmi:type="es.ua.dlsi.ooh:Class" href="default.domainModel#_NI_N0Fh8EeqjDJwRLdLcRg"/>
     </navigationalElem>
-    <navigationalElem xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalClass" xmi:id="_pcA78Gn-8HQaYT6xg" name="UsuarioWeb">
+    <navigationalElem xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalClass" xmi:id="_pcA78Gn-8HQaYT6xg" name="UsuarioWeb" targetEnd="_YLO9IIMXEeqtYP_st8J39w _ahm-oIMXEeqtYP_st8J39w">
       <navOperation xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalOperation" xmi:id="_kgqU4GoB8HQaYT6xg" name="buscarPorId">
         <referToOperation xmi:type="es.ua.dlsi.ooh:Operation" href="default.domainModel#_0cxPUFMjEeqrJ7PR8Bus8w"/>
       </navOperation>
@@ -326,7 +326,7 @@
       </navAttribute>
       <referToClass xmi:type="es.ua.dlsi.ooh:Class" href="default.domainModel#_awsn0FMlEeqrJ7PR8Bus8w"/>
     </navigationalElem>
-    <navigationalElem xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalClass" xmi:id="_ZCKisG2uEeqE3buVxWXJCQ" name="AccionReciclar" originEnd="_sLFXgG2yEeqE3buVxWXJCQ _9Td0wG2yEeqE3buVxWXJCQ">
+    <navigationalElem xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalClass" xmi:id="_ZCKisG2uEeqE3buVxWXJCQ" name="AccionReciclar" originEnd="_sLFXgG2yEeqE3buVxWXJCQ _9Td0wG2yEeqE3buVxWXJCQ _ahm-oIMXEeqtYP_st8J39w">
       <navOperation xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalOperation" xmi:id="_VpL8cG31EeqN-8HQaYT6xg" name="borrar">
         <referToOperation xmi:type="es.ua.dlsi.ooh:Operation" href="default.domainModel#_Ya4t8Fh-EeqjDJwRLdLcRg"/>
       </navOperation>
@@ -362,7 +362,7 @@
       </navAttribute>
       <referToClass xmi:type="es.ua.dlsi.ooh:Class" href="default.domainModel#_DgAE4Fh9EeqjDJwRLdLcRg"/>
     </navigationalElem>
-    <navigationalElem xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalClass" xmi:id="_cRLcYG2uEeqE3buVxWXJCQ" name="AccionWeb" originEnd="_aRpbUG2zEeqE3buVxWXJCQ">
+    <navigationalElem xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalClass" xmi:id="_cRLcYG2uEeqE3buVxWXJCQ" name="AccionWeb" originEnd="_aRpbUG2zEeqE3buVxWXJCQ _YLO9IIMXEeqtYP_st8J39w">
       <navOperation xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalOperation" xmi:id="_yrVAgG32EeqN-8HQaYT6xg" name="buscarPorId">
         <referToOperation xmi:type="es.ua.dlsi.ooh:Operation" href="default.domainModel#_-NYp0Fh-EeqjDJwRLdLcRg"/>
       </navOperation>
@@ -675,6 +675,12 @@
     </navigationalElem>
     <navigationalElem xmi:type="es.ua.dlsi.ooh.navigationalView:TravesalLink" xmi:id="_tJD-EHzZEeqQVd3YTF5krg" name="DudaRespuesta" nodeOrigin="_ffu4gG2tEeqE3buVxWXJCQ" nodeTarget="_dBoeYG2tEeqE3buVxWXJCQ">
       <associationRol xmi:type="es.ua.dlsi.ooh:Attribute" href="default.domainModel#_89h10lMrEeqrJ7PR8Bus8w"/>
+    </navigationalElem>
+    <navigationalElem xmi:type="es.ua.dlsi.ooh.navigationalView:TravesalLink" xmi:id="_YLO9IIMXEeqtYP_st8J39w" name="UsuarioAccionWeb" activationMode="Automatic" nodeOrigin="_cRLcYG2uEeqE3buVxWXJCQ" nodeTarget="_pcA78Gn-8HQaYT6xg">
+      <associationRol xmi:type="es.ua.dlsi.ooh:Attribute" href="default.domainModel#_tDhQMlMrEeqrJ7PR8Bus8w"/>
+    </navigationalElem>
+    <navigationalElem xmi:type="es.ua.dlsi.ooh.navigationalView:TravesalLink" xmi:id="_ahm-oIMXEeqtYP_st8J39w" name="UsuarioAccionReciclar" activationMode="Automatic" nodeOrigin="_ZCKisG2uEeqE3buVxWXJCQ" nodeTarget="_pcA78Gn-8HQaYT6xg">
+      <associationRol xmi:type="es.ua.dlsi.ooh:Attribute" href="default.domainModel#_tDhQMlMrEeqrJ7PR8Bus8w"/>
     </navigationalElem>
     <conceptualModel xmi:type="es.ua.dlsi.ooh:ConceptualModel" href="default.domainModel#_s93NwFMjEeqrJ7PR8Bus8w"/>
   </es.ua.dlsi.ooh.navigationalView:NavigationalModel>
@@ -2259,6 +2265,24 @@
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_tJ5EgnzZEeqQVd3YTF5krg" points="[-32, 4, 145, 0]$[-160, 10, 17, 6]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tJ9V8HzZEeqQVd3YTF5krg" id="(0.12549019607843137,0.26299694189602446)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tJ9V8XzZEeqQVd3YTF5krg" id="(0.9300411522633745,0.6163141993957704)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_YLwhkIMXEeqtYP_st8J39w" type="4004" element="_YLO9IIMXEeqtYP_st8J39w" source="_cRMqgG2uEeqE3buVxWXJCQ" target="_pcCKEGn-8HQaYT6xg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_YLxIoIMXEeqtYP_st8J39w" type="6004">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_YLxIoYMXEeqtYP_st8J39w" y="-15"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_YLwhkYMXEeqtYP_st8J39w" fontName="Segoe UI"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_YLwhkoMXEeqtYP_st8J39w" points="[55, -2, -476, 9]$[487, -77, -44, -66]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YLxvsIMXEeqtYP_st8J39w" id="(0.7782258064516129,0.09954751131221719)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YLxvsYMXEeqtYP_st8J39w" id="(0.2391304347826087,0.25675675675675674)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_aiGt4IMXEeqtYP_st8J39w" type="4004" element="_ahm-oIMXEeqtYP_st8J39w" source="_ZCMX4G2uEeqE3buVxWXJCQ" target="_pcCKEGn-8HQaYT6xg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_aiGt44MXEeqtYP_st8J39w" type="6004">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_aiGt5IMXEeqtYP_st8J39w" y="-15"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_aiGt4YMXEeqtYP_st8J39w" fontName="Segoe UI"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_aiGt4oMXEeqtYP_st8J39w" points="[61, -5, -135, 9]$[154, 15, -42, 29]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aiHU8IMXEeqtYP_st8J39w" id="(0.779783393501805,0.3936651583710407)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aiHU8YMXEeqtYP_st8J39w" id="(0.22826086956521738,0.6182432432432432)"/>
     </edges>
   </notation:Diagram>
 </xmi:XMI>
