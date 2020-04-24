@@ -184,7 +184,7 @@
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_oxNfwVMmEeqrJ7PR8Bus8w" name="crear" operationType="New" type="Object" typeObject="_lInocFMmEeqrJ7PR8Bus8w" automaticSynchronize="false" customized="true">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_03Zv4F12EeqEVphT1Oaudg" name="p_latitud" type="Double"/>
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_03Zv4V12EeqEVphT1Oaudg" name="p_longitud" type="Double"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_03Zv4112EeqEVphT1Oaudg" name="p_usuario" type="OID" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_03Zv4112EeqEVphT1Oaudg" name="p_usuario" type="OID" typeObject="_NI_N0Fh8EeqjDJwRLdLcRg"/>
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_03Zv5F12EeqEVphT1Oaudg" name="p_estancia" type="OID" typeObject="_wU1D8F1zEeqEVphT1Oaudg"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_oxNfwlMmEeqrJ7PR8Bus8w" name="modificar" operationType="Modifier" type="Void">
