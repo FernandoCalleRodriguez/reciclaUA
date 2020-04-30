@@ -14,8 +14,8 @@
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_86uKEXglEeqHLZNsBtk0qA" name="p_apellidos"/>
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_86uKEnglEeqHLZNsBtk0qA" name="p_email"/>
       </operations>
-      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_zrTWJFMjEeqrJ7PR8Bus8w" name="borrar" operationType="Destroy" type="Void" customized="true">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_Pd-l0HQ0EeqD9fsUNfqtzw" name="p_UsuarioWeb_OID" type="OID" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w"/>
+      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_zrTWJFMjEeqrJ7PR8Bus8w" name="borrar" operationType="Modifier" type="Void" automaticSynchronize="false" customized="true">
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_xT92gIr2EeqBt7i7a0sapA" name="p_UsuarioWeb_OID" type="OID" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_0cxPUFMjEeqrJ7PR8Bus8w" name="buscarPorId" operationType="ReadOID" type="Object" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_Pd-l0XQ0EeqD9fsUNfqtzw" name="p_UsuarioWeb_OID" type="OID" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w"/>
@@ -46,7 +46,7 @@
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_Kg-roHmrEeqHLZNsBtk0qA" name="p_apellidos"/>
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_KhEyQHmrEeqHLZNsBtk0qA" name="p_email"/>
       </operations>
-      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_osjbHFh9EeqjDJwRLdLcRg" name="borrar" operationType="Destroy" type="Void" customized="true">
+      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_osjbHFh9EeqjDJwRLdLcRg" name="borrar" operationType="Modifier" type="Void" automaticSynchronize="false" customized="true">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_9z4zkHQ8EeqD9fsUNfqtzw" name="p_UsuarioAdministrador_OID" type="OID" typeObject="_YvyVcFMkEeqrJ7PR8Bus8w"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_psX5UFh9EeqjDJwRLdLcRg" name="buscarPorId" operationType="ReadOID" type="Object" typeObject="_YvyVcFMkEeqrJ7PR8Bus8w">
