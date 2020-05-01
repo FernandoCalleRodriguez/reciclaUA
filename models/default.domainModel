@@ -14,7 +14,7 @@
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_86uKEXglEeqHLZNsBtk0qA" name="p_apellidos"/>
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_86uKEnglEeqHLZNsBtk0qA" name="p_email"/>
       </operations>
-      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_zrTWJFMjEeqrJ7PR8Bus8w" name="borrar" operationType="Modifier" type="Void" automaticSynchronize="false" customized="true">
+      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_zrTWJFMjEeqrJ7PR8Bus8w" name="borrar" operationType="Destroy" type="Void" automaticSynchronize="false" customized="true">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_xT92gIr2EeqBt7i7a0sapA" name="p_UsuarioWeb_OID" type="OID" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_0cxPUFMjEeqrJ7PR8Bus8w" name="buscarPorId" operationType="ReadOID" type="Object" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w">
@@ -31,7 +31,7 @@
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_hX03sInqEeqDBZPQW0EvTg" name="p_UsuarioWeb_OID" type="OID" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w"/>
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_zAzOoInsEeqDBZPQW0EvTg" name="p_EmailVerificado" type="Boolean" scope="InOut"/>
       </operations>
-      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="__ArHoHwPEeqxX9rvCzKD8A" name="buscarPorCorreo" operationType="ReadFilter" type="Object" collectionType="List" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w" filter="FROM UsuarioWebEN as usu WHERE usu.Email =:p_email" automaticSynchronize="false">
+      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="__ArHoHwPEeqxX9rvCzKD8A" name="buscarPorCorreo" operationType="ReadFilter" type="Object" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w" filter="FROM UsuarioWebEN as usu WHERE usu.Email =:p_email" automaticSynchronize="false">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_Sgv1AHwQEeqxX9rvCzKD8A" name="p_email"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_qlg2EH-0EeqNb7_P2vWz4g" name="buscarNoBorrados" operationType="ReadFilter" type="Object" collectionType="List" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w" filter="FROM UsuarioWebEN as usu WHERE usu.Borrado = false" automaticSynchronize="false"/>
@@ -46,7 +46,7 @@
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_Kg-roHmrEeqHLZNsBtk0qA" name="p_apellidos"/>
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_KhEyQHmrEeqHLZNsBtk0qA" name="p_email"/>
       </operations>
-      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_osjbHFh9EeqjDJwRLdLcRg" name="borrar" operationType="Modifier" type="Void" automaticSynchronize="false" customized="true">
+      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_osjbHFh9EeqjDJwRLdLcRg" name="borrar" operationType="Destroy" type="Void" automaticSynchronize="false" customized="true">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_9z4zkHQ8EeqD9fsUNfqtzw" name="p_UsuarioAdministrador_OID" type="OID" typeObject="_YvyVcFMkEeqrJ7PR8Bus8w"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_psX5UFh9EeqjDJwRLdLcRg" name="buscarPorId" operationType="ReadOID" type="Object" typeObject="_YvyVcFMkEeqrJ7PR8Bus8w">
@@ -63,7 +63,7 @@
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_R9LtQHsFEeqwXsKBnToj4A" name="p_UsuarioAdministrador_OID" type="OID" typeObject="_YvyVcFMkEeqrJ7PR8Bus8w"/>
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_R9OwkHsFEeqwXsKBnToj4A" name="p_pass" type="Password"/>
       </operations>
-      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_yQM6QHwZEeqxX9rvCzKD8A" name="buscarPorCorreo" operationType="ReadFilter" type="Object" collectionType="List" typeObject="_YvyVcFMkEeqrJ7PR8Bus8w" filter="FROM UsuarioAdministradorEN  as usu WHERE usu.Email =:p_correo" automaticSynchronize="false">
+      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_yQM6QHwZEeqxX9rvCzKD8A" name="buscarPorCorreo" operationType="ReadFilter" type="Object" typeObject="_YvyVcFMkEeqrJ7PR8Bus8w" filter="FROM UsuarioAdministradorEN  as usu WHERE usu.Email =:p_correo" automaticSynchronize="false">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_FUSPMHwaEeqxX9rvCzKD8A" name="p_correo"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_31cbEH-0EeqNb7_P2vWz4g" name="BuscarNoBorrados" operationType="ReadFilter" type="Object" collectionType="List" typeObject="_YvyVcFMkEeqrJ7PR8Bus8w" filter="FROM UsuarioAdministradorEN as usu WHERE usu.Borrado = false" automaticSynchronize="false"/>
