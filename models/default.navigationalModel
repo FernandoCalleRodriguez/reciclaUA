@@ -160,7 +160,7 @@
       </navAttribute>
       <referToClass xmi:type="es.ua.dlsi.ooh:Class" href="default.domainModel#_wU1D8F1zEeqEVphT1Oaudg"/>
     </navigationalElem>
-    <navigationalElem xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalClass" xmi:id="_L_7Q4G2tEeqE3buVxWXJCQ" name="Edificio" targetEnd="_50oy4G2xEeqE3buVxWXJCQ">
+    <navigationalElem xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalClass" xmi:id="_L_7Q4G2tEeqE3buVxWXJCQ" name="Edificio" originEnd="_pu83wIu4Eeq4FpnWoF1rXg" targetEnd="_50oy4G2xEeqE3buVxWXJCQ">
       <navOperation xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalOperation" xmi:id="_tOXTcG30EeqN-8HQaYT6xg" name="buscarPorId">
         <referToOperation xmi:type="es.ua.dlsi.ooh:Operation" href="default.domainModel#_caTkgFi4EeqjDJwRLdLcRg"/>
       </navOperation>
@@ -175,7 +175,7 @@
       </navAttribute>
       <referToClass xmi:type="es.ua.dlsi.ooh:Class" href="default.domainModel#_h01lcFi2EeqjDJwRLdLcRg"/>
     </navigationalElem>
-    <navigationalElem xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalClass" xmi:id="_M4kJEG2tEeqE3buVxWXJCQ" name="Planta" targetEnd="_C2oX0G2yEeqE3buVxWXJCQ">
+    <navigationalElem xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalClass" xmi:id="_M4kJEG2tEeqE3buVxWXJCQ" name="Planta" targetEnd="_C2oX0G2yEeqE3buVxWXJCQ _pu83wIu4Eeq4FpnWoF1rXg">
       <navOperation xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalOperation" xmi:id="_udTLwG30EeqN-8HQaYT6xg" name="buscarPorId">
         <referToOperation xmi:type="es.ua.dlsi.ooh:Operation" href="default.domainModel#_dLWm8Fi4EeqjDJwRLdLcRg"/>
       </navOperation>
@@ -499,6 +499,9 @@
     </navigationalElem>
     <navigationalElem xmi:type="es.ua.dlsi.ooh.navigationalView:TravesalLink" xmi:id="_1sibAHzZEeqQVd3YTF5krg" name="DudaRespuesta" nodeOrigin="_ffu4gG2tEeqE3buVxWXJCQ" nodeTarget="_dBoeYG2tEeqE3buVxWXJCQ">
       <associationRol xmi:type="es.ua.dlsi.ooh:Attribute" href="default.domainModel#_89h10lMrEeqrJ7PR8Bus8w"/>
+    </navigationalElem>
+    <navigationalElem xmi:type="es.ua.dlsi.ooh.navigationalView:TravesalLink" xmi:id="_pu83wIu4Eeq4FpnWoF1rXg" name="PlantasEdicio" activationMode="Automatic" nodeOrigin="_L_7Q4G2tEeqE3buVxWXJCQ" nodeTarget="_M4kJEG2tEeqE3buVxWXJCQ">
+      <associationRol xmi:type="es.ua.dlsi.ooh:Attribute" href="default.domainModel#_lwdfgF4yEeq8UqsCvEhKQQ"/>
     </navigationalElem>
     <conceptualModel xmi:type="es.ua.dlsi.ooh:ConceptualModel" href="default.domainModel#_s93NwFMjEeqrJ7PR8Bus8w"/>
   </es.ua.dlsi.ooh.navigationalView:NavigationalModel>
@@ -1688,6 +1691,14 @@
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1s8qsnzZEeqQVd3YTF5krg" points="[-44, 0, 143, 0]$[-172, 8, 15, 8]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1s-f4HzZEeqQVd3YTF5krg" id="(0.17254901960784313,0.4201954397394137)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1s-f4XzZEeqQVd3YTF5krg" id="(0.9382716049382716,0.662125340599455)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_pvY8oIu4Eeq4FpnWoF1rXg" type="4004" element="_pu83wIu4Eeq4FpnWoF1rXg" source="_L_8fAG2tEeqE3buVxWXJCQ" target="_M4l-QG2tEeqE3buVxWXJCQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_pvZjsIu4Eeq4FpnWoF1rXg" type="6004">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pvZjsYu4Eeq4FpnWoF1rXg" x="-19" y="-49"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_pvY8oYu4Eeq4FpnWoF1rXg" fontName="Segoe UI"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_pvY8oou4Eeq4FpnWoF1rXg" points="[62, 51, 57, -47]$[99, 80, 94, -18]$[87, 158, 82, 60]$[29, 115, 24, 17]"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pvax0Iu4Eeq4FpnWoF1rXg" id="(0.8125,0.37037037037037035)"/>
     </edges>
   </notation:Diagram>
 </xmi:XMI>
