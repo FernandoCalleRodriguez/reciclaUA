@@ -27,9 +27,8 @@
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_8lGk8Il0EeqDBZPQW0EvTg" name="p_UsuarioWeb_OID" type="OID" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w"/>
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_8lJoQIl0EeqDBZPQW0EvTg" name="p_pass" type="Password"/>
       </operations>
-      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_xp8NsHm3EeqHLZNsBtk0qA" name="verificarEmail" operationType="Modifier" type="Void" automaticSynchronize="false" customized="true">
+      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_xp8NsHm3EeqHLZNsBtk0qA" name="verificarEmail" type="Void" automaticSynchronize="false" customized="true">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_hX03sInqEeqDBZPQW0EvTg" name="p_UsuarioWeb_OID" type="OID" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_zAzOoInsEeqDBZPQW0EvTg" name="p_EmailVerificado" type="Boolean" scope="InOut"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="__ArHoHwPEeqxX9rvCzKD8A" name="buscarPorCorreo" operationType="ReadFilter" type="Object" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w" filter="FROM UsuarioWebEN as usu WHERE usu.Email =:p_email" automaticSynchronize="false">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_Sgv1AHwQEeqxX9rvCzKD8A" name="p_email"/>
@@ -833,7 +832,7 @@
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_YvyVclMkEeqrJ7PR8Bus8w"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_YvyVc1MkEeqrJ7PR8Bus8w" fontName="Segoe UI"/>
       <styles xmi:type="notation:FillStyle" xmi:id="_YvyVdFMkEeqrJ7PR8Bus8w" fillColor="12516090"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YvyVdVMkEeqrJ7PR8Bus8w" x="282" y="-435" width="142"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YvyVdVMkEeqrJ7PR8Bus8w" x="282" y="-440" width="142"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_8s6rIVMkEeqrJ7PR8Bus8w" type="2003" element="_8s6rIFMkEeqrJ7PR8Bus8w">
       <children xmi:type="notation:DecorationNode" xmi:id="_8s6rJlMkEeqrJ7PR8Bus8w" type="5005"/>
