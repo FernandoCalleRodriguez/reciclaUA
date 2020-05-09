@@ -101,9 +101,6 @@
       <navOperation xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalOperation" xmi:id="_m54YwHP2EeqF14d8TKfA5w" name="crear">
         <referToOperation xmi:type="es.ua.dlsi.ooh:Operation" href="default.domainModel#_zrTWIVMjEeqrJ7PR8Bus8w"/>
       </navOperation>
-      <navOperation xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalOperation" xmi:id="_vvprUIeZEeqKA8uXziFmQg" name="verificarEmail">
-        <referToOperation xmi:type="es.ua.dlsi.ooh:Operation" href="default.domainModel#_xp8NsHm3EeqHLZNsBtk0qA"/>
-      </navOperation>
       <navOperation xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalOperation" xmi:id="_SwxEsIeaEeqKA8uXziFmQg" name="cambiarPassword">
         <referToOperation xmi:type="es.ua.dlsi.ooh:Operation" href="default.domainModel#_hWAsMHm3EeqHLZNsBtk0qA"/>
       </navOperation>
@@ -741,13 +738,6 @@
           <styles xmi:type="notation:FontStyle" xmi:id="_m6utUnP2EeqF14d8TKfA5w" fontName="Segoe UI"/>
           <styles xmi:type="notation:LineStyle" xmi:id="_m6utU3P2EeqF14d8TKfA5w"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m6utVHP2EeqF14d8TKfA5w"/>
-        </children>
-        <children xmi:type="notation:Node" xmi:id="_vvq5cIeZEeqKA8uXziFmQg" type="3004" element="_vvprUIeZEeqKA8uXziFmQg">
-          <children xmi:type="notation:DecorationNode" xmi:id="_vvrggIeZEeqKA8uXziFmQg" type="5008"/>
-          <styles xmi:type="notation:DescriptionStyle" xmi:id="_vvq5cYeZEeqKA8uXziFmQg"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_vvq5coeZEeqKA8uXziFmQg" fontName="Segoe UI"/>
-          <styles xmi:type="notation:LineStyle" xmi:id="_vvq5c4eZEeqKA8uXziFmQg"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vvq5dIeZEeqKA8uXziFmQg"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_Sw1WIIeaEeqKA8uXziFmQg" type="3004" element="_SwxEsIeaEeqKA8uXziFmQg">
           <children xmi:type="notation:DecorationNode" xmi:id="_Sw19NIeaEeqKA8uXziFmQg" type="5008"/>
