@@ -488,7 +488,7 @@
     </elements>
     <elements xmi:type="es.ua.dlsi.ooh:Inheritance" xmi:id="_sUxUYFh8EeqjDJwRLdLcRg" name="inheritance2" son="_t1JbEFMjEeqrJ7PR8Bus8w" father="_NI_N0Fh8EeqjDJwRLdLcRg"/>
     <elements xmi:type="es.ua.dlsi.ooh:Class" xmi:id="_DgAE4Fh9EeqjDJwRLdLcRg" name="AccionReciclar" alias="AccionReciclar" inheritFathers="_PB6B0Fh9EeqjDJwRLdLcRg" associationOrigin="_aAJd8FiyEeqjDJwRLdLcRg _dmoYQFi5EeqjDJwRLdLcRg">
-      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_Ya4G4Fh-EeqjDJwRLdLcRg" name="crear" operationType="New" type="Object" typeObject="_DgAE4Fh9EeqjDJwRLdLcRg" automaticSynchronize="false" customizedTransaction="true">
+      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_Ya4G4Fh-EeqjDJwRLdLcRg" name="crear" operationType="New" type="Object" typeObject="_DgAE4Fh9EeqjDJwRLdLcRg" automaticSynchronize="false" customized="true">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_1X0oUHKeEeqxxbPce-qqKg" name="p_usuario" type="OID" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w"/>
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_1X1PYHKeEeqxxbPce-qqKg" name="p_contenedor" type="OID" typeObject="_mZIYoFMnEeqrJ7PR8Bus8w"/>
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_1X1PYXKeEeqxxbPce-qqKg" name="p_item" type="OID" typeObject="_JQRWoFMoEeqrJ7PR8Bus8w"/>
@@ -518,12 +518,15 @@
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_vJiAcHKmEeqxxbPce-qqKg" name="buscarAccionesReciclajePorUsuario" operationType="ReadFilter" type="Object" collectionType="List" typeObject="_DgAE4Fh9EeqjDJwRLdLcRg" filter="FROM AccionReciclarEN as accion where accion.Usuario is not empty and accion.Usuario.Id = :id_usuario" automaticSynchronize="false">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_2IEf4HKmEeqxxbPce-qqKg" name="id_usuario" type="OID" typeObject="_NI_N0Fh8EeqjDJwRLdLcRg"/>
       </operations>
+      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_nvSQYJOrEeqLYYAaggWb2A" name="crearAccion" operationType="CustomTransaction" type="Void">
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_nvY-EJOrEeqLYYAaggWb2A" name="p_oid" type="OID" typeObject="_DgAE4Fh9EeqjDJwRLdLcRg"/>
+      </operations>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_aAJd8ViyEeqjDJwRLdLcRg" alias="idContenedor" associationOrigin="_aAJd8FiyEeqjDJwRLdLcRg" name="contenedor" type="Object"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_dmo_UFi5EeqjDJwRLdLcRg" alias="idItem" associationOrigin="_dmoYQFi5EeqjDJwRLdLcRg" name="item" type="Object"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_vgWy4Fi5EeqjDJwRLdLcRg" alias="cantidad" name="cantidad" type="Integer"/>
     </elements>
     <elements xmi:type="es.ua.dlsi.ooh:Class" xmi:id="_Gv5IUFh9EeqjDJwRLdLcRg" name="AccionWeb" alias="AccionWeb" inheritFathers="_OPj-4Fh9EeqjDJwRLdLcRg" associationOrigin="_gNkZ0Ff_EeqjDJwRLdLcRg">
-      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_ZOqUQFh-EeqjDJwRLdLcRg" name="crear" operationType="New" type="Object" typeObject="_Gv5IUFh9EeqjDJwRLdLcRg" automaticSynchronize="false" customizedTransaction="true">
+      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_ZOqUQFh-EeqjDJwRLdLcRg" name="crear" operationType="New" type="Object" typeObject="_Gv5IUFh9EeqjDJwRLdLcRg" automaticSynchronize="false" customized="true">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_PYYe8Fi7EeqjDJwRLdLcRg" name="p_usuario" type="OID" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w"/>
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_PYYe8li7EeqjDJwRLdLcRg" name="p_tipo" type="OID" typeObject="_buzk8Ff-EeqjDJwRLdLcRg"/>
       </operations>
@@ -549,6 +552,9 @@
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_mUui8HKmEeqxxbPce-qqKg" name="buscarAccionesWebPorUsuario" operationType="ReadFilter" type="Object" collectionType="List" typeObject="_Gv5IUFh9EeqjDJwRLdLcRg" filter="FROM AccionWebEN as accion where accion.Usuario is not empty and accion.Usuario.Id = :id_usuario" automaticSynchronize="false">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_sDxJYHKmEeqxxbPce-qqKg" name="id_usuario" type="OID" typeObject="_NI_N0Fh8EeqjDJwRLdLcRg"/>
+      </operations>
+      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_uq3JIJOwEeqLYYAaggWb2A" name="crearAccion" operationType="CustomTransaction" type="Void">
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_uq8osJOwEeqLYYAaggWb2A" name="p_oid" type="OID" typeObject="_Gv5IUFh9EeqjDJwRLdLcRg"/>
       </operations>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_gPd3QFf_EeqjDJwRLdLcRg" alias="idTipoAcciones" associationOrigin="_gNkZ0Ff_EeqjDJwRLdLcRg" name="tipo" type="Object"/>
     </elements>
@@ -2028,6 +2034,13 @@
           <styles xmi:type="notation:FillStyle" xmi:id="_vJing3KmEeqxxbPce-qqKg"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vJinhHKmEeqxxbPce-qqKg"/>
         </children>
+        <children xmi:type="notation:Node" xmi:id="_nvedoJOrEeqLYYAaggWb2A" type="3004" element="_nvSQYJOrEeqLYYAaggWb2A">
+          <children xmi:type="notation:DecorationNode" xmi:id="_nvedpZOrEeqLYYAaggWb2A" type="5004"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_nvedoZOrEeqLYYAaggWb2A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_nvedopOrEeqLYYAaggWb2A" fontName="Segoe UI"/>
+          <styles xmi:type="notation:FillStyle" xmi:id="_nvedo5OrEeqLYYAaggWb2A"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nvedpJOrEeqLYYAaggWb2A"/>
+        </children>
         <styles xmi:type="notation:SortingStyle" xmi:id="_DgBTClh9EeqjDJwRLdLcRg"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_DgBTC1h9EeqjDJwRLdLcRg"/>
       </children>
@@ -2109,6 +2122,13 @@
           <styles xmi:type="notation:FontStyle" xmi:id="_mUwYInKmEeqxxbPce-qqKg" fontName="Segoe UI"/>
           <styles xmi:type="notation:FillStyle" xmi:id="_mUwYI3KmEeqxxbPce-qqKg"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mUwYJHKmEeqxxbPce-qqKg"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_urATEJOwEeqLYYAaggWb2A" type="3004" element="_uq3JIJOwEeqLYYAaggWb2A">
+          <children xmi:type="notation:DecorationNode" xmi:id="_urA6JJOwEeqLYYAaggWb2A" type="5004"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_urA6IJOwEeqLYYAaggWb2A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_urA6IZOwEeqLYYAaggWb2A" fontName="Segoe UI"/>
+          <styles xmi:type="notation:FillStyle" xmi:id="_urA6IpOwEeqLYYAaggWb2A"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_urA6I5OwEeqLYYAaggWb2A"/>
         </children>
         <styles xmi:type="notation:SortingStyle" xmi:id="_Gv6WdVh9EeqjDJwRLdLcRg"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_Gv6Wdlh9EeqjDJwRLdLcRg"/>
