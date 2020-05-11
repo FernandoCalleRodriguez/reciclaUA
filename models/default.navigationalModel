@@ -365,6 +365,9 @@
       <navAttribute xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalAttribute" xmi:id="_vdJiAG2uEeqE3buVxWXJCQ" name="esValido">
         <referToAttribute xmi:type="es.ua.dlsi.ooh:Attribute" href="default.domainModel#_1B-J8FMqEeqrJ7PR8Bus8w"/>
       </navAttribute>
+      <navAttribute xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalAttribute" xmi:id="_wXqVEJOjEeqLYYAaggWb2A" name="puntuacion">
+        <referToAttribute xmi:type="es.ua.dlsi.ooh:Attribute" href="default.domainModel#_A2DeUJOdEeqLYYAaggWb2A"/>
+      </navAttribute>
       <referToClass xmi:type="es.ua.dlsi.ooh:Class" href="default.domainModel#_JQRWoFMoEeqrJ7PR8Bus8w"/>
     </navigationalElem>
     <navigationalElem xmi:type="es.ua.dlsi.ooh.navigationalView:TravesalLink" xmi:id="_sTfiEG2xEeqE3buVxWXJCQ" name="Contenedores" activationMode="Automatic" nodeOrigin="_tqknEGn-EeqVwuacpccIkA" nodeTarget="_OIt-0G2sEeqE3buVxWXJCQ">
@@ -1297,6 +1300,10 @@
         <children xmi:type="notation:Shape" xmi:id="_vdKJEG2uEeqE3buVxWXJCQ" type="3003" element="_vdJiAG2uEeqE3buVxWXJCQ" fontName="Segoe UI">
           <children xmi:type="notation:DecorationNode" xmi:id="_vdKwIG2uEeqE3buVxWXJCQ" type="5007"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vdKJEW2uEeqE3buVxWXJCQ"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_wXtYYJOjEeqLYYAaggWb2A" type="3003" element="_wXqVEJOjEeqLYYAaggWb2A" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_wXtYYpOjEeqLYYAaggWb2A" type="5007"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXtYYZOjEeqLYYAaggWb2A"/>
         </children>
         <styles xmi:type="notation:SortingStyle" xmi:id="_kKUi4m2uEeqE3buVxWXJCQ"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_kKUi422uEeqE3buVxWXJCQ"/>
