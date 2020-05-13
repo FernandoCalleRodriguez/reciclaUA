@@ -234,8 +234,10 @@
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_lnokYF4WEeq1leMn-QuVkg" name="id_edificio" type="Integer"/>
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_nGM0IF4WEeq1leMn-QuVkg" name="num_planta" type="Integer"/>
       </operations>
-      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_i3G8wF2CEeqjxc-qH0qSuw" name="buscarPuntosCercanos" type="Void">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_i3Hj0F2CEeqjxc-qH0qSuw" name="p_oid" type="OID" typeObject="_lInocFMmEeqrJ7PR8Bus8w"/>
+      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_i3G8wF2CEeqjxc-qH0qSuw" name="buscarPuntosCercanos" type="Object" collectionType="List" typeObject="_lInocFMmEeqrJ7PR8Bus8w">
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_rUqEMJUiEeqqa8QrOiALBQ" name="p_latitud" type="Double"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_tv_eMJUiEeqqa8QrOiALBQ" name="p_longitud" type="Double"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_FeeFsJUjEeqqa8QrOiALBQ" name="p_limit" type="Integer"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_1jc6cHKnEeqxxbPce-qqKg" name="buscarPuntosPorUsuario" operationType="ReadFilter" type="Object" collectionType="List" typeObject="_lInocFMmEeqrJ7PR8Bus8w" filter="FROM PuntoReciclajeEN as punto where punto.Usuario is not empty and punto.Usuario.Id = :id_usuario" automaticSynchronize="false">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_6h048HKnEeqxxbPce-qqKg" name="id_usuario" type="OID" typeObject="_NI_N0Fh8EeqjDJwRLdLcRg"/>
