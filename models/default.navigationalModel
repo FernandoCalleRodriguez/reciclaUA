@@ -86,6 +86,9 @@
       <navOperation xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalOperation" xmi:id="_pKIkoIZAEeqRMIuwHNG8AA" name="buscarPuntoPorContenedor">
         <referToOperation xmi:type="es.ua.dlsi.ooh:Operation" href="default.domainModel#_OTmAAIZAEeqRMIuwHNG8AA"/>
       </navOperation>
+      <navOperation xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalOperation" xmi:id="_BsVvgJUxEeqqa8QrOiALBQ" name="buscarPuntosCercanosPorContenedor">
+        <referToOperation xmi:type="es.ua.dlsi.ooh:Operation" href="default.domainModel#_MOiVMJUsEeqqa8QrOiALBQ"/>
+      </navOperation>
       <navAttribute xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalAttribute" xmi:id="_utJeYGn-EeqVwuacpccIkA" name="latitud">
         <referToAttribute xmi:type="es.ua.dlsi.ooh:Attribute" href="default.domainModel#_2VK0AFMmEeqrJ7PR8Bus8w"/>
       </navAttribute>
@@ -715,6 +718,13 @@
           <styles xmi:type="notation:FontStyle" xmi:id="_pKMPAoZAEeqRMIuwHNG8AA" fontName="Segoe UI"/>
           <styles xmi:type="notation:LineStyle" xmi:id="_pKMPA4ZAEeqRMIuwHNG8AA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pKMPBIZAEeqRMIuwHNG8AA"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_BsdrUJUxEeqqa8QrOiALBQ" type="3004" element="_BsVvgJUxEeqqa8QrOiALBQ">
+          <children xmi:type="notation:DecorationNode" xmi:id="_BsdrVZUxEeqqa8QrOiALBQ" type="5008"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_BsdrUZUxEeqqa8QrOiALBQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_BsdrUpUxEeqqa8QrOiALBQ" fontName="Segoe UI"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_BsdrU5UxEeqqa8QrOiALBQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BsdrVJUxEeqqa8QrOiALBQ"/>
         </children>
         <styles xmi:type="notation:SortingStyle" xmi:id="_tqmcQWn-EeqVwuacpccIkA"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_tqmcQmn-EeqVwuacpccIkA"/>
