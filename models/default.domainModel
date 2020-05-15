@@ -18,7 +18,7 @@
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_xT92gIr2EeqBt7i7a0sapA" name="p_UsuarioWeb_OID" type="OID" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_0cxPUFMjEeqrJ7PR8Bus8w" name="buscarPorId" operationType="ReadOID" type="Object" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_LmHg8JVFEeqqa8QrOiALBQ" name="p_UsuarioWeb_OID" type="OID" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_IwwsAJbHEeqnlp-aU634vg" name="p_UsuarioWeb_OID" type="OID" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_0cxPUlMjEeqrJ7PR8Bus8w" name="buscarTodos" operationType="ReadAll" type="Object" collectionType="List" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w"/>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_dyJCwFMpEeqrJ7PR8Bus8w" name="obtenerRanking" operationType="ReadFilter" type="Object" collectionType="List" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w" filter="FROM UsuarioWebEN as usu WHERE usu.Borrado = false order by usu.Puntuacion desc" automaticSynchronize="false"/>
@@ -36,7 +36,7 @@
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_qlg2EH-0EeqNb7_P2vWz4g" name="buscarNoBorrados" operationType="ReadFilter" type="Object" collectionType="List" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w" filter="FROM UsuarioWebEN as usu WHERE usu.Borrado = false" automaticSynchronize="false"/>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_hAqZsISsEeq0fZTYdPNUOg" name="BuscarTodosCount" operationType="ReadFilter" type="Integer" filter="SELECT cast(count(usu) as int) FROM UsuarioWebEN as usu WHERE usu.Borrado = false" automaticSynchronize="false"/>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_gGxr0JHHEeqad7aqe7pc8g" name="destroy" operationType="Destroy" type="Void">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_LmHg8ZVFEeqqa8QrOiALBQ" name="p_UsuarioWeb_OID" type="OID" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_IwxTEJbHEeqnlp-aU634vg" name="p_UsuarioWeb_OID" type="OID" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_owD_oJOlEeqLYYAaggWb2A" name="incrementarPuntuacion" type="Void">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_owGb4JOlEeqLYYAaggWb2A" name="p_oid" type="OID" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w"/>
@@ -56,7 +56,7 @@
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_9z4zkHQ8EeqD9fsUNfqtzw" name="p_UsuarioAdministrador_OID" type="OID" typeObject="_YvyVcFMkEeqrJ7PR8Bus8w"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_psX5UFh9EeqjDJwRLdLcRg" name="buscarPorId" operationType="ReadOID" type="Object" typeObject="_YvyVcFMkEeqrJ7PR8Bus8w">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_LmHg8pVFEeqqa8QrOiALBQ" name="p_UsuarioAdministrador_OID" type="OID" typeObject="_YvyVcFMkEeqrJ7PR8Bus8w"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_IwxTEZbHEeqnlp-aU634vg" name="p_UsuarioAdministrador_OID" type="OID" typeObject="_YvyVcFMkEeqrJ7PR8Bus8w"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_psYgYVh9EeqjDJwRLdLcRg" name="buscarTodos" operationType="ReadAll" type="Object" collectionType="List" typeObject="_YvyVcFMkEeqrJ7PR8Bus8w"/>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_jgGsoFukEeqbB84-ujc1mA" name="crear" operationType="New" type="Object" typeObject="_YvyVcFMkEeqrJ7PR8Bus8w" automaticSynchronize="false" customized="true">
@@ -74,7 +74,7 @@
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_31cbEH-0EeqNb7_P2vWz4g" name="BuscarNoBorrados" operationType="ReadFilter" type="Object" collectionType="List" typeObject="_YvyVcFMkEeqrJ7PR8Bus8w" filter="FROM UsuarioAdministradorEN as usu WHERE usu.Borrado = false" automaticSynchronize="false"/>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_a4qBIJHHEeqad7aqe7pc8g" name="destroy" operationType="Destroy" type="Void">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_LmHg85VFEeqqa8QrOiALBQ" name="p_UsuarioAdministrador_OID" type="OID" typeObject="_YvyVcFMkEeqrJ7PR8Bus8w"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_IwxTEpbHEeqnlp-aU634vg" name="p_UsuarioAdministrador_OID" type="OID" typeObject="_YvyVcFMkEeqrJ7PR8Bus8w"/>
       </operations>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_qJPc4Vi8EeqjDJwRLdLcRg" alias="idNotaInformativa" lower="0" upper="*" associationTarget="_qJO10Fi8EeqjDJwRLdLcRg" name="notas" type="Object"/>
     </elements>
@@ -86,18 +86,18 @@
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_s5I4gHm0EeqHLZNsBtk0qA" name="p_tema" type="Enum" typeEnum="_wWa0gHmwEeqHLZNsBtk0qA"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_-7zkklMkEeqrJ7PR8Bus8w" name="modificar" operationType="Modifier" type="Void">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_MxrewHmyEeqHLZNsBtk0qA" name="p_Duda_OID" type="OID" typeObject="_8s6rIFMkEeqrJ7PR8Bus8w"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_MxsF0HmyEeqHLZNsBtk0qA" name="p_titulo"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_MxsF0XmyEeqHLZNsBtk0qA" name="p_cuerpo"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_MxsF0nmyEeqHLZNsBtk0qA" name="p_fecha" type="Date"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_MxsF03myEeqHLZNsBtk0qA" name="p_util" type="Integer"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_MxsF1HmyEeqHLZNsBtk0qA" name="p_tema" type="Enum" typeEnum="_wWa0gHmwEeqHLZNsBtk0qA"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_KcVdAJbHEeqnlp-aU634vg" name="p_Duda_OID" type="OID" typeObject="_8s6rIFMkEeqrJ7PR8Bus8w"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_KcVdAZbHEeqnlp-aU634vg" name="p_titulo"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_KcVdApbHEeqnlp-aU634vg" name="p_cuerpo"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_KcVdA5bHEeqnlp-aU634vg" name="p_fecha" type="Time"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_KcVdBJbHEeqnlp-aU634vg" name="p_util" type="Integer"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_KcVdBZbHEeqnlp-aU634vg" name="p_tema" type="Enum" typeEnum="_wWa0gHmwEeqHLZNsBtk0qA"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_-7zklFMkEeqrJ7PR8Bus8w" name="borrar" operationType="Destroy" type="Void">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_MxsF1XmyEeqHLZNsBtk0qA" name="p_Duda_OID" type="OID" typeObject="_8s6rIFMkEeqrJ7PR8Bus8w"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_KcVdBpbHEeqnlp-aU634vg" name="p_Duda_OID" type="OID" typeObject="_8s6rIFMkEeqrJ7PR8Bus8w"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_A3VdIFMlEeqrJ7PR8Bus8w" name="buscarPorId" operationType="ReadOID" type="Object" typeObject="_8s6rIFMkEeqrJ7PR8Bus8w">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_MxsF1nmyEeqHLZNsBtk0qA" name="p_Duda_OID" type="OID" typeObject="_8s6rIFMkEeqrJ7PR8Bus8w"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_KcVdB5bHEeqnlp-aU634vg" name="p_Duda_OID" type="OID" typeObject="_8s6rIFMkEeqrJ7PR8Bus8w"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_A3VdIlMlEeqrJ7PR8Bus8w" name="buscarTodos" operationType="ReadAll" type="Object" collectionType="List" typeObject="_8s6rIFMkEeqrJ7PR8Bus8w"/>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_1A5lMFMlEeqrJ7PR8Bus8w" name="buscarDudaPorTitulo" operationType="ReadFilter" type="Object" collectionType="List" typeObject="_8s6rIFMkEeqrJ7PR8Bus8w" filter="FROM DudaEN as duda WHERE duda.Titulo LIKE '%'+:p_titulo+'%'" automaticSynchronize="false">
@@ -130,7 +130,7 @@
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_XcN_UFMlEeqrJ7PR8Bus8w" length="1500" alias="cuerpo" name="cuerpo"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_3BacslMrEeqrJ7PR8Bus8w" alias="idUsuario" associationTarget="_3BacsFMrEeqrJ7PR8Bus8w" name="usuario" type="Object"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_89h10VMrEeqrJ7PR8Bus8w" alias="idRespuesta" aggregation="Composite" lower="0" upper="*" associationOrigin="_89h10FMrEeqrJ7PR8Bus8w" name="respuestas" type="Object" collectionType="List"/>
-      <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_BhqgYFizEeqjDJwRLdLcRg" alias="fecha" name="fecha" type="Date"/>
+      <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_BhqgYFizEeqjDJwRLdLcRg" alias="fecha" name="fecha" type="Time"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_Gf1CEFk4EeqjDJwRLdLcRg" alias="util" name="util" type="Integer"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_z1sowFk4EeqjDJwRLdLcRg" alias="tema" name="tema" type="Enum" typeEnum="_wWa0gHmwEeqHLZNsBtk0qA" isToken="true"/>
     </elements>
@@ -141,17 +141,17 @@
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_876Y0HQzEeqD9fsUNfqtzw" name="p_usuario" type="OID" typeObject="_NI_N0Fh8EeqjDJwRLdLcRg"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_dwnVklMlEeqrJ7PR8Bus8w" name="modificar" operationType="Modifier" type="Void">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_iEki8HQzEeqD9fsUNfqtzw" name="p_Respuesta_OID" type="OID" typeObject="_awsn0FMlEeqrJ7PR8Bus8w"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_iEki8XQzEeqD9fsUNfqtzw" name="p_cuerpo"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_iElKAHQzEeqD9fsUNfqtzw" name="p_fecha" type="Date"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_iElKAXQzEeqD9fsUNfqtzw" name="p_esCorrecta" type="Boolean"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_iElKAnQzEeqD9fsUNfqtzw" name="p_util" type="Integer"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_fZTboJbGEeqnlp-aU634vg" name="p_Respuesta_OID" type="OID" typeObject="_awsn0FMlEeqrJ7PR8Bus8w"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_fZTboZbGEeqnlp-aU634vg" name="p_cuerpo"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_fZTbopbGEeqnlp-aU634vg" name="p_fecha" type="Time"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_fZTbo5bGEeqnlp-aU634vg" name="p_esCorrecta" type="Boolean"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_fZTbpJbGEeqnlp-aU634vg" name="p_util" type="Integer"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_dwxGkVMlEeqrJ7PR8Bus8w" name="borrar" operationType="Destroy" type="Void">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_iElKA3QzEeqD9fsUNfqtzw" name="p_Respuesta_OID" type="OID" typeObject="_awsn0FMlEeqrJ7PR8Bus8w"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_fZTbpZbGEeqnlp-aU634vg" name="p_Respuesta_OID" type="OID" typeObject="_awsn0FMlEeqrJ7PR8Bus8w"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_fBYZ4FMlEeqrJ7PR8Bus8w" name="buscarPorId" operationType="ReadOID" type="Object" typeObject="_awsn0FMlEeqrJ7PR8Bus8w">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_iElKBHQzEeqD9fsUNfqtzw" name="p_Respuesta_OID" type="OID" typeObject="_awsn0FMlEeqrJ7PR8Bus8w"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_fZTbppbGEeqnlp-aU634vg" name="p_Respuesta_OID" type="OID" typeObject="_awsn0FMlEeqrJ7PR8Bus8w"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_fBYZ4lMlEeqrJ7PR8Bus8w" name="buscarTodos" operationType="ReadAll" type="Object" collectionType="List" typeObject="_awsn0FMlEeqrJ7PR8Bus8w"/>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_v0KakFMlEeqrJ7PR8Bus8w" name="buscarRespuestaPorDuda" operationType="ReadFilter" type="Object" collectionType="List" typeObject="_awsn0FMlEeqrJ7PR8Bus8w" filter="FROM RespuestaEN as resp where resp.Duda.Id = :id_duda" automaticSynchronize="false">
@@ -183,18 +183,18 @@
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_8mp1oFMlEeqrJ7PR8Bus8w" length="1500" alias="cuerpo" name="cuerpo"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_89h10lMrEeqrJ7PR8Bus8w" alias="idDuda" associationTarget="_89h10FMrEeqrJ7PR8Bus8w" name="duda" type="Object"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_IjlS8lMsEeqrJ7PR8Bus8w" alias="idUsuario" associationTarget="_IjlS8FMsEeqrJ7PR8Bus8w" name="usuario" type="Object"/>
-      <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_XL8bgFizEeqjDJwRLdLcRg" alias="fecha" name="fecha" type="Date"/>
+      <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_XL8bgFizEeqjDJwRLdLcRg" alias="fecha" name="fecha" type="Time"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_dktvcFk3EeqjDJwRLdLcRg" alias="esCorrecta" name="esCorrecta" type="Boolean"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_Is4TAFk5EeqjDJwRLdLcRg" alias="util" name="util" type="Integer"/>
     </elements>
     <elements xmi:type="es.ua.dlsi.ooh:Class" xmi:id="_-LiIwFMlEeqrJ7PR8Bus8w" name="Accion" alias="Accion" inheritSons="_OPj-4Fh9EeqjDJwRLdLcRg _PB6B0Fh9EeqjDJwRLdLcRg" asociationTarget="_tDhQMFMrEeqrJ7PR8Bus8w">
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_1QrYEFh_EeqjDJwRLdLcRg" name="crear" operationType="New" type="Object" typeObject="_-LiIwFMlEeqrJ7PR8Bus8w">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_HcankFizEeqjDJwRLdLcRg" name="p_usuario" type="OID" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_HcankVizEeqjDJwRLdLcRg" name="p_fecha" type="Date"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_NOKrcJbHEeqnlp-aU634vg" name="p_usuario" type="OID" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_NOKrcZbHEeqnlp-aU634vg" name="p_fecha" type="Time"/>
       </operations>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_BiPl4FMmEeqrJ7PR8Bus8w" alias="idAccion" name="id" type="Autogenerated" isOID="true"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_tDhQMlMrEeqrJ7PR8Bus8w" alias="idUsuario" associationTarget="_tDhQMFMrEeqrJ7PR8Bus8w" name="usuario" type="Object"/>
-      <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_FCpT0FizEeqjDJwRLdLcRg" alias="fecha" name="fecha" type="Date"/>
+      <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_FCpT0FizEeqjDJwRLdLcRg" alias="fecha" name="fecha" type="Time"/>
     </elements>
     <elements xmi:type="es.ua.dlsi.ooh:Class" xmi:id="_lInocFMmEeqrJ7PR8Bus8w" name="PuntoReciclaje" alias="PuntoReciclaje" asociationTarget="_nnvukFMsEeqrJ7PR8Bus8w" associationOrigin="_vGNrQFMsEeqrJ7PR8Bus8w _uaxqsF12EeqEVphT1Oaudg">
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_oxNfwVMmEeqrJ7PR8Bus8w" name="crear" operationType="New" type="Object" typeObject="_lInocFMmEeqrJ7PR8Bus8w" automaticSynchronize="false" customized="true">
@@ -398,16 +398,16 @@
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_9xNaMlk5EeqjDJwRLdLcRg" name="p_cuerpo"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_OSDRolMsEeqrJ7PR8Bus8w" name="modificar" operationType="Modifier" type="Void">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_kheisF4YEeq1leMn-QuVkg" name="p_NotaInformativa_OID" type="OID" typeObject="_LyZ_YFMsEeqrJ7PR8Bus8w"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_kheisV4YEeq1leMn-QuVkg" name="p_titulo"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_kheisl4YEeq1leMn-QuVkg" name="p_cuerpo"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_kheis14YEeq1leMn-QuVkg" name="p_fecha" type="Date"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_P0DIkJbHEeqnlp-aU634vg" name="p_NotaInformativa_OID" type="OID" typeObject="_LyZ_YFMsEeqrJ7PR8Bus8w"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_P0DIkZbHEeqnlp-aU634vg" name="p_titulo"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_P0DIkpbHEeqnlp-aU634vg" name="p_cuerpo"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_P0DIk5bHEeqnlp-aU634vg" name="p_fecha" type="Time"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_OSDRpFMsEeqrJ7PR8Bus8w" name="borrar" operationType="Destroy" type="Void">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_khfJwF4YEeq1leMn-QuVkg" name="p_NotaInformativa_OID" type="OID" typeObject="_LyZ_YFMsEeqrJ7PR8Bus8w"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_P0DIlJbHEeqnlp-aU634vg" name="p_NotaInformativa_OID" type="OID" typeObject="_LyZ_YFMsEeqrJ7PR8Bus8w"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_R4RKYFMsEeqrJ7PR8Bus8w" name="buscarPorId" operationType="ReadOID" type="Object" typeObject="_LyZ_YFMsEeqrJ7PR8Bus8w">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_khfJwV4YEeq1leMn-QuVkg" name="p_NotaInformativa_OID" type="OID" typeObject="_LyZ_YFMsEeqrJ7PR8Bus8w"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_P0DIlZbHEeqnlp-aU634vg" name="p_NotaInformativa_OID" type="OID" typeObject="_LyZ_YFMsEeqrJ7PR8Bus8w"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_R4RKYlMsEeqrJ7PR8Bus8w" name="buscarTodos" operationType="ReadAll" type="Object" collectionType="List" typeObject="_LyZ_YFMsEeqrJ7PR8Bus8w"/>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_BdF2EFk6EeqjDJwRLdLcRg" name="buscarPorTitulo" operationType="ReadFilter" type="Object" collectionType="List" typeObject="_LyZ_YFMsEeqrJ7PR8Bus8w" filter="FROM NotaInformativaEN" automaticSynchronize="false"/>
@@ -415,7 +415,7 @@
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_qJPc4Fi8EeqjDJwRLdLcRg" alias="idUsuarioAdministrador" associationOrigin="_qJO10Fi8EeqjDJwRLdLcRg" name="usuarioAdministrador" type="Object"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_6Un-kFk5EeqjDJwRLdLcRg" alias="titulo" name="titulo"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_79Z6QFk5EeqjDJwRLdLcRg" length="1500" alias="cuerpo" name="cuerpo"/>
-      <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_9exmYFk5EeqjDJwRLdLcRg" alias="fecha" name="fecha" type="Date"/>
+      <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_9exmYFk5EeqjDJwRLdLcRg" alias="fecha" name="fecha" type="Time"/>
     </elements>
     <elements xmi:type="es.ua.dlsi.ooh:Association" xmi:id="_nnvukFMsEeqrJ7PR8Bus8w" name="puntoReciclaje_usuario" alias="puntoReciclaje_usuario" rolOrigin="_nnvukVMsEeqrJ7PR8Bus8w" rolTarget="_nnvuklMsEeqrJ7PR8Bus8w" classTarget="_lInocFMmEeqrJ7PR8Bus8w" classOrigin="_NI_N0Fh8EeqjDJwRLdLcRg" rolOriginName="puntos" rolTargetName="usuario" rolOriginMultiplicity="0..*" rolTargetMultiplicity="1..1"/>
     <elements xmi:type="es.ua.dlsi.ooh:Association" xmi:id="_vGNrQFMsEeqrJ7PR8Bus8w" name="contenedor_puntoReciclaje" alias="contenedor_puntoReciclaje" rolOrigin="_vGNrQVMsEeqrJ7PR8Bus8w" rolTarget="_vGNrQlMsEeqrJ7PR8Bus8w" classTarget="_mZIYoFMnEeqrJ7PR8Bus8w" classOrigin="_lInocFMmEeqrJ7PR8Bus8w" rolOriginName="contenedores" rolTargetName="punto" rolOriginMultiplicity="0..*" rolTargetMultiplicity="1..1"/>
@@ -508,7 +508,7 @@
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_Y9G8IFh8EeqjDJwRLdLcRg" alias="apellidos" name="apellidos"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_ad9q4Fh8EeqjDJwRLdLcRg" alias="email" name="email"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_bXLx4Fh8EeqjDJwRLdLcRg" alias="pass" name="pass" type="Password"/>
-      <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_n3a8QFvSEeqKrorZ1UARAQ" alias="fecha" name="fecha" type="Date"/>
+      <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_n3a8QFvSEeqKrorZ1UARAQ" alias="fecha" name="fecha" type="Time"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_5hnTIVMsEeqrJ7PR8Bus8w" alias="idItem" lower="0" upper="*" associationOrigin="_5hnTIFMsEeqrJ7PR8Bus8w" name="items" type="Object"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_3BacsVMrEeqrJ7PR8Bus8w" alias="idDuda" lower="0" upper="*" associationOrigin="_3BacsFMrEeqrJ7PR8Bus8w" name="dudas" type="Object" collectionType="List"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_IjlS8VMsEeqrJ7PR8Bus8w" alias="idRespuesta" lower="0" upper="*" associationOrigin="_IjlS8FMsEeqrJ7PR8Bus8w" name="respuestas" type="Object"/>
@@ -527,15 +527,15 @@
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_1X1PYnKeEeqxxbPce-qqKg" name="p_cantidad" type="Integer"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_Ya4G4lh-EeqjDJwRLdLcRg" name="modificar" operationType="Modifier" type="Void">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_1X1PY3KeEeqxxbPce-qqKg" name="p_AccionReciclar_OID" type="OID" typeObject="_DgAE4Fh9EeqjDJwRLdLcRg"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_1X1PZHKeEeqxxbPce-qqKg" name="p_fecha" type="Date"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_1X1PZXKeEeqxxbPce-qqKg" name="p_cantidad" type="Integer"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_NOKrdpbHEeqnlp-aU634vg" name="p_AccionReciclar_OID" type="OID" typeObject="_DgAE4Fh9EeqjDJwRLdLcRg"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_NOKrd5bHEeqnlp-aU634vg" name="p_fecha" type="Time"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_NOKreJbHEeqnlp-aU634vg" name="p_cantidad" type="Integer"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_Ya4t8Fh-EeqjDJwRLdLcRg" name="borrar" operationType="Destroy" type="Void">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_1X1PZnKeEeqxxbPce-qqKg" name="p_AccionReciclar_OID" type="OID" typeObject="_DgAE4Fh9EeqjDJwRLdLcRg"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_NOLSgJbHEeqnlp-aU634vg" name="p_AccionReciclar_OID" type="OID" typeObject="_DgAE4Fh9EeqjDJwRLdLcRg"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_9dLU4Fh-EeqjDJwRLdLcRg" name="buscarPorId" operationType="ReadOID" type="Object" typeObject="_DgAE4Fh9EeqjDJwRLdLcRg">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_1X1PZ3KeEeqxxbPce-qqKg" name="p_AccionReciclar_OID" type="OID" typeObject="_DgAE4Fh9EeqjDJwRLdLcRg"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_NOLSgZbHEeqnlp-aU634vg" name="p_AccionReciclar_OID" type="OID" typeObject="_DgAE4Fh9EeqjDJwRLdLcRg"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_9dL78Vh-EeqjDJwRLdLcRg" name="buscarTodos" operationType="ReadAll" type="Object" collectionType="List" typeObject="_DgAE4Fh9EeqjDJwRLdLcRg"/>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_JkCgUGMEEeqcgYpjZcRRjQ" name="buscarPorAutor" operationType="ReadFilter" type="Object" collectionType="List" typeObject="_DgAE4Fh9EeqjDJwRLdLcRg" filter="FROM AccionReciclarEN as acc WHERE acc.Usuario.Id = :p_user_id" automaticSynchronize="false">
@@ -563,14 +563,14 @@
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_PYYe8li7EeqjDJwRLdLcRg" name="p_tipo" type="OID" typeObject="_buzk8Ff-EeqjDJwRLdLcRg"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_ZOq7Ulh-EeqjDJwRLdLcRg" name="modificar" operationType="Modifier" type="Void">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_PYYe81i7EeqjDJwRLdLcRg" name="p_AccionWeb_OID" type="OID" typeObject="_Gv5IUFh9EeqjDJwRLdLcRg"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_PYYe9Fi7EeqjDJwRLdLcRg" name="p_fecha" type="Date"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_NOKrcpbHEeqnlp-aU634vg" name="p_AccionWeb_OID" type="OID" typeObject="_Gv5IUFh9EeqjDJwRLdLcRg"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_NOKrc5bHEeqnlp-aU634vg" name="p_fecha" type="Time"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_ZOriYFh-EeqjDJwRLdLcRg" name="borrar" operationType="Destroy" type="Void">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_PYYe9Vi7EeqjDJwRLdLcRg" name="p_AccionWeb_OID" type="OID" typeObject="_Gv5IUFh9EeqjDJwRLdLcRg"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_NOKrdJbHEeqnlp-aU634vg" name="p_AccionWeb_OID" type="OID" typeObject="_Gv5IUFh9EeqjDJwRLdLcRg"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_-NYp0Fh-EeqjDJwRLdLcRg" name="buscarPorId" operationType="ReadOID" type="Object" typeObject="_Gv5IUFh9EeqjDJwRLdLcRg">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_PYYe9li7EeqjDJwRLdLcRg" name="p_AccionWeb_OID" type="OID" typeObject="_Gv5IUFh9EeqjDJwRLdLcRg"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_NOKrdZbHEeqnlp-aU634vg" name="p_AccionWeb_OID" type="OID" typeObject="_Gv5IUFh9EeqjDJwRLdLcRg"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_-NZQ4Fh-EeqjDJwRLdLcRg" name="buscarTodos" operationType="ReadAll" type="Object" collectionType="List" typeObject="_Gv5IUFh9EeqjDJwRLdLcRg"/>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_57jlAGMCEeqcgYpjZcRRjQ" name="buscarPorAutor" operationType="ReadFilter" type="Object" collectionType="List" typeObject="_Gv5IUFh9EeqjDJwRLdLcRg" filter="FROM AccionWebEN as acc WHERE acc.Usuario.Id = :p_user_id" automaticSynchronize="false">
