@@ -104,11 +104,11 @@
       <navOperation xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalOperation" xmi:id="_m54YwHP2EeqF14d8TKfA5w" name="crear">
         <referToOperation xmi:type="es.ua.dlsi.ooh:Operation" href="default.domainModel#_zrTWIVMjEeqrJ7PR8Bus8w"/>
       </navOperation>
-      <navOperation xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalOperation" xmi:id="_SwxEsIeaEeqKA8uXziFmQg" name="cambiarPassword">
-        <referToOperation xmi:type="es.ua.dlsi.ooh:Operation" href="default.domainModel#_hWAsMHm3EeqHLZNsBtk0qA"/>
-      </navOperation>
       <navOperation xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalOperation" xmi:id="_lh9tUIevEeqKA8uXziFmQg" name="buscarTodos">
         <referToOperation xmi:type="es.ua.dlsi.ooh:Operation" href="default.domainModel#_0cxPUlMjEeqrJ7PR8Bus8w"/>
+      </navOperation>
+      <navOperation xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalOperation" xmi:id="_MV8LQJd9EeqBppm1xO_2IQ" name="RecuperarPassword">
+        <referToOperation xmi:type="es.ua.dlsi.ooh:Operation" href="default.domainModel#_AeD-UJd9EeqBppm1xO_2IQ"/>
       </navOperation>
       <navAttribute xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalAttribute" xmi:id="__rbwkIevEeqKA8uXziFmQg" name="email">
         <referToAttribute xmi:type="es.ua.dlsi.ooh:Attribute" href="default.domainModel#_ad9q4Fh8EeqjDJwRLdLcRg"/>
@@ -732,7 +732,7 @@
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_tql1MWn-EeqVwuacpccIkA"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_tql1Mmn-EeqVwuacpccIkA" fontName="Segoe UI"/>
       <styles xmi:type="notation:FillStyle" xmi:id="_tql1M2n-EeqVwuacpccIkA" fillColor="12761756"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tql1NGn-EeqVwuacpccIkA" x="550" y="85" width="187" height="261"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tql1NGn-EeqVwuacpccIkA" x="550" y="85" width="187" height="281"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_EEEfgG2rEeqE3buVxWXJCQ" type="2004" element="_D9xDMG2rEeqE3buVxWXJCQ">
       <children xmi:type="notation:DecorationNode" xmi:id="_EEFtoG2rEeqE3buVxWXJCQ" type="5004"/>
@@ -752,19 +752,19 @@
           <styles xmi:type="notation:LineStyle" xmi:id="_m6utU3P2EeqF14d8TKfA5w"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m6utVHP2EeqF14d8TKfA5w"/>
         </children>
-        <children xmi:type="notation:Node" xmi:id="_Sw1WIIeaEeqKA8uXziFmQg" type="3004" element="_SwxEsIeaEeqKA8uXziFmQg">
-          <children xmi:type="notation:DecorationNode" xmi:id="_Sw19NIeaEeqKA8uXziFmQg" type="5008"/>
-          <styles xmi:type="notation:DescriptionStyle" xmi:id="_Sw19MIeaEeqKA8uXziFmQg"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_Sw19MYeaEeqKA8uXziFmQg" fontName="Segoe UI"/>
-          <styles xmi:type="notation:LineStyle" xmi:id="_Sw19MoeaEeqKA8uXziFmQg"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Sw19M4eaEeqKA8uXziFmQg"/>
-        </children>
         <children xmi:type="notation:Node" xmi:id="_liLvwIevEeqKA8uXziFmQg" type="3004" element="_lh9tUIevEeqKA8uXziFmQg">
           <children xmi:type="notation:DecorationNode" xmi:id="_liM94IevEeqKA8uXziFmQg" type="5008"/>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_liLvwYevEeqKA8uXziFmQg"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_liLvwoevEeqKA8uXziFmQg" fontName="Segoe UI"/>
           <styles xmi:type="notation:LineStyle" xmi:id="_liLvw4evEeqKA8uXziFmQg"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_liLvxIevEeqKA8uXziFmQg"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_MV8yUJd9EeqBppm1xO_2IQ" type="3004" element="_MV8LQJd9EeqBppm1xO_2IQ">
+          <children xmi:type="notation:DecorationNode" xmi:id="_MV8yVZd9EeqBppm1xO_2IQ" type="5008"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_MV8yUZd9EeqBppm1xO_2IQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_MV8yUpd9EeqBppm1xO_2IQ" fontName="Segoe UI"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_MV8yU5d9EeqBppm1xO_2IQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MV8yVJd9EeqBppm1xO_2IQ"/>
         </children>
         <styles xmi:type="notation:SortingStyle" xmi:id="_EEFtpW2rEeqE3buVxWXJCQ"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_EEFtpm2rEeqE3buVxWXJCQ"/>
@@ -1577,7 +1577,7 @@
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_sTrvUW2xEeqE3buVxWXJCQ" fontName="Segoe UI"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sTrvUm2xEeqE3buVxWXJCQ" points="[47, 8, -99, 0]$[115, -8, -31, -16]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sTzEEG2xEeqE3buVxWXJCQ" id="(0.9946524064171123,0.6551724137931034)"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sTzEEG2xEeqE3buVxWXJCQ" id="(0.9918032786885246,0.5800711743772242)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sTzEEW2xEeqE3buVxWXJCQ" id="(0.16145833333333334,0.1981981981981982)"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_0jpaYG2xEeqE3buVxWXJCQ" type="4004" element="_0jaw4G2xEeqE3buVxWXJCQ" source="_tql1MGn-EeqVwuacpccIkA" target="_LLoGIG2tEeqE3buVxWXJCQ">
@@ -1704,7 +1704,8 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_pvZjsYu4Eeq4FpnWoF1rXg" x="-19" y="-49"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_pvY8oYu4Eeq4FpnWoF1rXg" fontName="Segoe UI"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_pvY8oou4Eeq4FpnWoF1rXg" points="[62, 51, 57, -47]$[99, 80, 94, -18]$[87, 158, 82, 60]$[29, 115, 24, 17]"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_pvY8oou4Eeq4FpnWoF1rXg" points="[7, 5, 66, -47]$[7, 63, 66, 11]$[-38, 63, 21, 11]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9q9PcJd6EeqBppm1xO_2IQ" id="(0.8802395209580839,0.9504950495049505)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pvax0Iu4Eeq4FpnWoF1rXg" id="(0.8125,0.37037037037037035)"/>
     </edges>
   </notation:Diagram>
