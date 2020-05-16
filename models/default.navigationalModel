@@ -416,6 +416,9 @@
       <navAttribute xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalAttribute" xmi:id="_mk0dIG2zEeqE3buVxWXJCQ" name="contenedor">
         <referToAttribute xmi:type="es.ua.dlsi.ooh:Attribute" href="default.domainModel#_G0dnEFgAEeqjDJwRLdLcRg"/>
       </navAttribute>
+      <navAttribute xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalAttribute" xmi:id="_1ulsoJe4Eeqnlp-aU634vg" name="esValido">
+        <referToAttribute xmi:type="es.ua.dlsi.ooh:Attribute" href="default.domainModel#_X_YIkG51EeqN-8HQaYT6xg"/>
+      </navAttribute>
       <referToClass xmi:type="es.ua.dlsi.ooh:Class" href="default.domainModel#_dfFPwFf-EeqjDJwRLdLcRg"/>
     </navigationalElem>
     <navigationalElem xmi:type="es.ua.dlsi.ooh.navigationalView:NavigationalClass" xmi:id="_nXS4YG2yEeqE3buVxWXJCQ" name="Nivel" targetEnd="_KgLtsG2zEeqE3buVxWXJCQ">
@@ -1386,6 +1389,10 @@
         <children xmi:type="notation:Shape" xmi:id="_mk0dIW2zEeqE3buVxWXJCQ" type="3003" element="_mk0dIG2zEeqE3buVxWXJCQ" fontName="Segoe UI">
           <children xmi:type="notation:DecorationNode" xmi:id="_mk1EMG2zEeqE3buVxWXJCQ" type="5007"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mk0dIm2zEeqE3buVxWXJCQ"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_1uov8Je4Eeqnlp-aU634vg" type="3003" element="_1ulsoJe4Eeqnlp-aU634vg" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_1uov8pe4Eeqnlp-aU634vg" type="5007"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1uov8Ze4Eeqnlp-aU634vg"/>
         </children>
         <styles xmi:type="notation:SortingStyle" xmi:id="_mIb4l22yEeqE3buVxWXJCQ"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_mIb4mG2yEeqE3buVxWXJCQ"/>
