@@ -688,6 +688,9 @@
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_4nx1YpLYEeqLYYAaggWb2A" name="p_edificio" type="OID" typeObject="_h01lcFi2EeqjDJwRLdLcRg"/>
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_V9gj0JLaEeqLYYAaggWb2A" name="p_planta" type="OID" typeObject="_x7CM8Fi2EeqjDJwRLdLcRg"/>
       </operations>
+      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_C8A7oJk3Eeqnlp-aU634vg" name="buscarEstanciasPorEdificio" operationType="ReadFilter" type="Object" collectionType="List" typeObject="_wU1D8F1zEeqEVphT1Oaudg" filter="FROM EstanciaEN as estancia where estancia.Edificio is not empty and estancia.Edificio = :id_edificio" automaticSynchronize="false">
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_Jk0boJk3Eeqnlp-aU634vg" name="id_edificio" type="OID" typeObject="_h01lcFi2EeqjDJwRLdLcRg"/>
+      </operations>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_nl22wF11EeqEVphT1Oaudg" alias="id" name="id" isOID="true" unique="true" isToken="true"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_ut5QcF11EeqEVphT1Oaudg" alias="actividad" name="actividad"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_vgcHsF11EeqEVphT1Oaudg" alias="latitud" name="latitud" type="Double"/>
@@ -2535,6 +2538,20 @@
           <styles xmi:type="notation:FontStyle" xmi:id="_TG3Gw3ZSEeqiCMLzrU4JpA" fontName="Segoe UI"/>
           <styles xmi:type="notation:FillStyle" xmi:id="_TG3GxHZSEeqiCMLzrU4JpA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TG3GxXZSEeqiCMLzrU4JpA"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_tkkc8Jk2Eeqnlp-aU634vg" type="3004" element="_52rxAHcXEeqiCMLzrU4JpA">
+          <children xmi:type="notation:DecorationNode" xmi:id="_tkkc9Zk2Eeqnlp-aU634vg" type="5004"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_tkkc8Zk2Eeqnlp-aU634vg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_tkkc8pk2Eeqnlp-aU634vg" fontName="Segoe UI"/>
+          <styles xmi:type="notation:FillStyle" xmi:id="_tkkc85k2Eeqnlp-aU634vg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tkkc9Jk2Eeqnlp-aU634vg"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_C8KFkJk3Eeqnlp-aU634vg" type="3004" element="_C8A7oJk3Eeqnlp-aU634vg">
+          <children xmi:type="notation:DecorationNode" xmi:id="_C8KFlZk3Eeqnlp-aU634vg" type="5004"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_C8KFkZk3Eeqnlp-aU634vg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_C8KFkpk3Eeqnlp-aU634vg" fontName="Segoe UI"/>
+          <styles xmi:type="notation:FillStyle" xmi:id="_C8KFk5k3Eeqnlp-aU634vg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_C8KFlJk3Eeqnlp-aU634vg"/>
         </children>
         <styles xmi:type="notation:SortingStyle" xmi:id="_wU5Val1zEeqEVphT1Oaudg"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_wU5Va11zEeqEVphT1Oaudg"/>
