@@ -18,7 +18,7 @@
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_xT92gIr2EeqBt7i7a0sapA" name="p_UsuarioWeb_OID" type="OID" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_0cxPUFMjEeqrJ7PR8Bus8w" name="buscarPorId" operationType="ReadOID" type="Object" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_IwwsAJbHEeqnlp-aU634vg" name="p_UsuarioWeb_OID" type="OID" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_t-pIsZrJEeqS6fUI-rrjXg" name="p_UsuarioWeb_OID" type="OID" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_0cxPUlMjEeqrJ7PR8Bus8w" name="buscarTodos" operationType="ReadAll" type="Object" collectionType="List" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w"/>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_dyJCwFMpEeqrJ7PR8Bus8w" name="obtenerRanking" operationType="ReadFilter" type="Object" collectionType="List" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w" filter="FROM UsuarioWebEN as usu WHERE usu.Borrado = false order by usu.Puntuacion desc" automaticSynchronize="false"/>
@@ -36,7 +36,7 @@
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_qlg2EH-0EeqNb7_P2vWz4g" name="buscarNoBorrados" operationType="ReadFilter" type="Object" collectionType="List" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w" filter="FROM UsuarioWebEN as usu WHERE usu.Borrado = false" automaticSynchronize="false"/>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_hAqZsISsEeq0fZTYdPNUOg" name="BuscarTodosCount" operationType="ReadFilter" type="Integer" filter="SELECT cast(count(usu) as int) FROM UsuarioWebEN as usu WHERE usu.Borrado = false" automaticSynchronize="false"/>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_gGxr0JHHEeqad7aqe7pc8g" name="destroy" operationType="Destroy" type="Void">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_IwxTEJbHEeqnlp-aU634vg" name="p_UsuarioWeb_OID" type="OID" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_t-pvwJrJEeqS6fUI-rrjXg" name="p_UsuarioWeb_OID" type="OID" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_owD_oJOlEeqLYYAaggWb2A" name="incrementarPuntuacion" type="Void">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_owGb4JOlEeqLYYAaggWb2A" name="p_oid" type="OID" typeObject="_t1JbEFMjEeqrJ7PR8Bus8w"/>
@@ -60,7 +60,7 @@
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_9z4zkHQ8EeqD9fsUNfqtzw" name="p_UsuarioAdministrador_OID" type="OID" typeObject="_YvyVcFMkEeqrJ7PR8Bus8w"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_psX5UFh9EeqjDJwRLdLcRg" name="buscarPorId" operationType="ReadOID" type="Object" typeObject="_YvyVcFMkEeqrJ7PR8Bus8w">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_IwxTEZbHEeqnlp-aU634vg" name="p_UsuarioAdministrador_OID" type="OID" typeObject="_YvyVcFMkEeqrJ7PR8Bus8w"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_t-pvwZrJEeqS6fUI-rrjXg" name="p_UsuarioAdministrador_OID" type="OID" typeObject="_YvyVcFMkEeqrJ7PR8Bus8w"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_psYgYVh9EeqjDJwRLdLcRg" name="buscarTodos" operationType="ReadAll" type="Object" collectionType="List" typeObject="_YvyVcFMkEeqrJ7PR8Bus8w"/>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_jgGsoFukEeqbB84-ujc1mA" name="crear" operationType="New" type="Object" typeObject="_YvyVcFMkEeqrJ7PR8Bus8w" automaticSynchronize="false" customized="true">
@@ -78,7 +78,7 @@
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_31cbEH-0EeqNb7_P2vWz4g" name="BuscarNoBorrados" operationType="ReadFilter" type="Object" collectionType="List" typeObject="_YvyVcFMkEeqrJ7PR8Bus8w" filter="FROM UsuarioAdministradorEN as usu WHERE usu.Borrado = false" automaticSynchronize="false"/>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_a4qBIJHHEeqad7aqe7pc8g" name="destroy" operationType="Destroy" type="Void">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_IwxTEpbHEeqnlp-aU634vg" name="p_UsuarioAdministrador_OID" type="OID" typeObject="_YvyVcFMkEeqrJ7PR8Bus8w"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_t-pvwprJEeqS6fUI-rrjXg" name="p_UsuarioAdministrador_OID" type="OID" typeObject="_YvyVcFMkEeqrJ7PR8Bus8w"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_ze2V4Jd8EeqBppm1xO_2IQ" name="RecuperarPassword" operationType="Modifier" type="Void" automaticSynchronize="false" customized="true">
         <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_3XJdIJd8EeqBppm1xO_2IQ" name="p_UsuarioAdministrador_OID" type="OID" typeObject="_YvyVcFMkEeqrJ7PR8Bus8w"/>
@@ -710,30 +710,24 @@
       <enumerationLiterals xmi:type="es.ua.dlsi.ooh:EnumerationLiteral" xmi:id="_44uMwHmwEeqHLZNsBtk0qA" name="cuestion" value="3"/>
     </elements>
     <elements xmi:type="es.ua.dlsi.ooh:Class" xmi:id="_T1HYIJVEEeqqa8QrOiALBQ" name="Juego" alias="Juego" associationOrigin="_EgAZ4JVFEeqqa8QrOiALBQ">
-      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_pp5TEZVEEeqqa8QrOiALBQ" name="crear" operationType="New" type="Object" typeObject="_T1HYIJVEEeqqa8QrOiALBQ">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_hOl_oJqzEeqRIslLDbPVlA" name="p_itemActual" type="Integer"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_hOl_oZqzEeqRIslLDbPVlA" name="p_aciertos" type="Integer"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_hOl_opqzEeqRIslLDbPVlA" name="p_fallos" type="Integer"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_hOl_o5qzEeqRIslLDbPVlA" name="p_puntuacion" type="Double"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_hOl_pJqzEeqRIslLDbPVlA" name="p_intentosItemActual" type="Integer"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_hOl_pZqzEeqRIslLDbPVlA" name="p_finalizado" type="Boolean"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_hOl_ppqzEeqRIslLDbPVlA" name="p_nivelActual" type="Integer"/>
+      <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_pp5TEZVEEeqqa8QrOiALBQ" name="crear" operationType="New" type="Object" typeObject="_T1HYIJVEEeqqa8QrOiALBQ" automaticSynchronize="false" customized="true">
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_FzUe0JrKEeqS6fUI-rrjXg" name="p_usuarios" type="OID" typeObject="_NI_N0Fh8EeqjDJwRLdLcRg"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_pp56IZVEEeqqa8QrOiALBQ" name="modificar" operationType="Modifier" type="Void">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_hOmmsJqzEeqRIslLDbPVlA" name="p_Juego_OID" type="OID" typeObject="_T1HYIJVEEeqqa8QrOiALBQ"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_hOmmsZqzEeqRIslLDbPVlA" name="p_itemActual" type="Integer"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_hOmmspqzEeqRIslLDbPVlA" name="p_aciertos" type="Integer"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_hOmms5qzEeqRIslLDbPVlA" name="p_fallos" type="Integer"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_hOmmtJqzEeqRIslLDbPVlA" name="p_puntuacion" type="Double"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_hOmmtZqzEeqRIslLDbPVlA" name="p_intentosItemActual" type="Integer"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_hOmmtpqzEeqRIslLDbPVlA" name="p_finalizado" type="Boolean"/>
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_hOmmt5qzEeqRIslLDbPVlA" name="p_nivelActual" type="Integer"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_t-n6kJrJEeqS6fUI-rrjXg" name="p_Juego_OID" type="OID" typeObject="_T1HYIJVEEeqqa8QrOiALBQ"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_t-ohoJrJEeqS6fUI-rrjXg" name="p_itemActual" type="Integer"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_t-ohoZrJEeqS6fUI-rrjXg" name="p_aciertos" type="Integer"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_t-ohoprJEeqS6fUI-rrjXg" name="p_fallos" type="Integer"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_t-oho5rJEeqS6fUI-rrjXg" name="p_puntuacion" type="Double"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_t-ohpJrJEeqS6fUI-rrjXg" name="p_intentosItemActual" type="Integer"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_t-ohpZrJEeqS6fUI-rrjXg" name="p_finalizado" type="Boolean"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_t-ohpprJEeqS6fUI-rrjXg" name="p_nivelActual" type="Integer"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_pp56JJVEEeqqa8QrOiALBQ" name="borrar" operationType="Destroy" type="Void">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_hOmmuJqzEeqRIslLDbPVlA" name="p_Juego_OID" type="OID" typeObject="_T1HYIJVEEeqqa8QrOiALBQ"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_t-ohp5rJEeqS6fUI-rrjXg" name="p_Juego_OID" type="OID" typeObject="_T1HYIJVEEeqqa8QrOiALBQ"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_CHGo0JVFEeqqa8QrOiALBQ" name="buscarPorId" operationType="ReadOID" type="Object" typeObject="_T1HYIJVEEeqqa8QrOiALBQ">
-        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_hOmmuZqzEeqRIslLDbPVlA" name="p_Juego_OID" type="OID" typeObject="_T1HYIJVEEeqqa8QrOiALBQ"/>
+        <arguments xmi:type="es.ua.dlsi.ooh:Argument" xmi:id="_t-pIsJrJEeqS6fUI-rrjXg" name="p_Juego_OID" type="OID" typeObject="_T1HYIJVEEeqqa8QrOiALBQ"/>
       </operations>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_CHHP4JVFEeqqa8QrOiALBQ" name="buscarTodos" operationType="ReadAll" type="Object" collectionType="List" typeObject="_T1HYIJVEEeqqa8QrOiALBQ"/>
       <operations xmi:type="es.ua.dlsi.ooh:Operation" xmi:id="_P6XA4Jp1Eeqiy7bNB3NXoQ" name="siguienteItem" operationType="CustomTransaction" type="Object" typeObject="_T1HYIJVEEeqqa8QrOiALBQ">
@@ -745,12 +739,12 @@
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_0ThkMJVEEeqqa8QrOiALBQ" alias="aciertos" name="aciertos" type="Integer"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_256-sJVEEeqqa8QrOiALBQ" alias="fallos" name="fallos" type="Integer"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_53qiMJVEEeqqa8QrOiALBQ" alias="puntuacion" name="puntuacion" type="Double"/>
-      <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_EgAZ4ZVFEeqqa8QrOiALBQ" alias="idUsuario" lower="0" upper="*" associationOrigin="_EgAZ4JVFEeqqa8QrOiALBQ" name="usuarios" type="Object"/>
+      <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_EgAZ4ZVFEeqqa8QrOiALBQ" alias="idUsuario" associationOrigin="_EgAZ4JVFEeqqa8QrOiALBQ" name="usuarios" type="Object"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_ZT1jQJVHEeqqa8QrOiALBQ" alias="intentosItemActual" name="intentosItemActual" type="Integer"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_Oqw2UJVIEeqqa8QrOiALBQ" alias="finalizado" name="finalizado" type="Boolean"/>
       <attributes xmi:type="es.ua.dlsi.ooh:Attribute" xmi:id="_agfI4JqzEeqRIslLDbPVlA" alias="nivelActual" name="nivelActual" type="Integer"/>
     </elements>
-    <elements xmi:type="es.ua.dlsi.ooh:Association" xmi:id="_EgAZ4JVFEeqqa8QrOiALBQ" name="usuario_juego" alias="usuario_juego" rolOrigin="_EgAZ4ZVFEeqqa8QrOiALBQ" rolTarget="_EgBA8JVFEeqqa8QrOiALBQ" classTarget="_NI_N0Fh8EeqjDJwRLdLcRg" classOrigin="_T1HYIJVEEeqqa8QrOiALBQ" rolOriginName="usuarios" rolTargetName="juego" rolOriginMultiplicity="0..*" rolTargetMultiplicity="0..1"/>
+    <elements xmi:type="es.ua.dlsi.ooh:Association" xmi:id="_EgAZ4JVFEeqqa8QrOiALBQ" name="usuario_juego" alias="usuario_juego" rolOrigin="_EgAZ4ZVFEeqqa8QrOiALBQ" rolTarget="_EgBA8JVFEeqqa8QrOiALBQ" classTarget="_NI_N0Fh8EeqjDJwRLdLcRg" classOrigin="_T1HYIJVEEeqqa8QrOiALBQ" rolOriginName="usuarios" rolTargetName="juego" rolOriginMultiplicity="1..1" rolTargetMultiplicity="0..1"/>
   </es.ua.dlsi.ooh:ConceptualModel>
   <notation:Diagram xmi:id="_s93NwVMjEeqrJ7PR8Bus8w" type="ConceptualView" element="_s93NwFMjEeqrJ7PR8Bus8w" name="default.domainModel" measurementUnit="Pixel">
     <children xmi:type="notation:Node" xmi:id="_t1JbEVMjEeqrJ7PR8Bus8w" type="2003" element="_t1JbEFMjEeqrJ7PR8Bus8w">
